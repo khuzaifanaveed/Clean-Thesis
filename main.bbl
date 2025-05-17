@@ -1,0 +1,1067 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global/global}
+  \entry{LIGOScientific:2017adf}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=ABP}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={B.\bibnamedelima P.},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ABP+1}
+    \strng{fullhash}{ABP+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1038/nature24471
+    \endverb
+    \verb{eprint}
+    \verb 1710.05835
+    \endverb
+    \field{number}{7678}
+    \field{pages}{85\bibrangedash 88}
+    \field{title}{{A gravitational-wave standard siren measurement of the
+  Hubble constant}}
+    \field{volume}{551}
+    \field{journaltitle}{Nature}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.CO}
+    \field{year}{2017}
+  \endentry
+
+  \entry{abbott2016gw150914}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=ABP}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={Benjamin\bibnamedelima P},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=AT}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={TD},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Abernathy},
+         familyi={A\bibinitperiod},
+         given={MR},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AF}{%
+         family={Acernese},
+         familyi={A\bibinitperiod},
+         given={Fausto},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Ackley},
+         familyi={A\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=AC}{%
+         family={Adams},
+         familyi={A\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=AT}{%
+         family={Adams},
+         familyi={A\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=AP}{%
+         family={Addesso},
+         familyi={A\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Adhikari},
+         familyi={A\bibinitperiod},
+         given={RX},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{ABP+2}
+    \strng{fullhash}{ABPARATAMAFAKACATAPAR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{12}
+    \field{pages}{122003}
+    \field{title}{GW150914: First results from the search for binary black hole
+  coalescence with Advanced LIGO}
+    \field{volume}{93}
+    \field{journaltitle}{Physical Review D}
+    \field{year}{2016}
+  \endentry
+
+  \entry{abbott201gwtc1}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=ABP}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={Benjamin\bibnamedelima P},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{ABP+2}
+    \strng{fullhash}{ABP+2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{3}
+    \field{pages}{031040}
+    \field{title}{GWTC-1: a gravitational-wave transient catalog of compact
+  binary mergers observed by LIGO and Virgo during the first and second
+  observing runs}
+    \field{volume}{9}
+    \field{journaltitle}{Physical Review X}
+    \field{year}{2019}
+  \endentry
+
+  \entry{abbott2021gravitational}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AB}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={BP},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{AB+1}
+    \strng{fullhash}{AB+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{2}
+    \field{pages}{218}
+    \field{title}{A gravitational-wave measurement of the Hubble constant
+  following the second observing run of advanced LIGO and Virgo}
+    \field{volume}{909}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2021}
+  \endentry
+
+  \entry{abbott2023constraints}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AR}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \strng{namehash}{AR+1}
+    \strng{fullhash}{AR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Constraints on the cosmic expansion history from GWTC--3}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2023}
+  \endentry
+
+  \entry{abbott2024gwtc21}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AR}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AR+2}
+    \strng{fullhash}{AR+2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{2}
+    \field{pages}{022001}
+    \field{title}{GWTC-2.1: Deep extended catalog of compact binary
+  coalescences observed by LIGO and Virgo during the first half of the third
+  observing run}
+    \field{volume}{109}
+    \field{journaltitle}{Physical Review D}
+    \field{year}{2024}
+  \endentry
+
+  \entry{abbott2021gwtc2}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AR}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AR+3}
+    \strng{fullhash}{AR+3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{2}
+    \field{pages}{021053}
+    \field{title}{GWTC-2: compact binary coalescences observed by LIGO and
+  Virgo during the first half of the third observing run}
+    \field{volume}{11}
+    \field{journaltitle}{Physical Review X}
+    \field{year}{2021}
+  \endentry
+
+  \entry{abbott2023gwtc3}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AR}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AR+3}
+    \strng{fullhash}{AR+3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{4}
+    \field{pages}{041039}
+    \field{title}{GWTC-3: Compact binary coalescences observed by LIGO and
+  Virgo during the second part of the third observing run}
+    \field{volume}{13}
+    \field{journaltitle}{Physical Review X}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Planck:2018vyg}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AN}{%
+         family={Aghanim},
+         familyi={A\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AN+1}
+    \strng{fullhash}{AN+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1051/0004-6361/201833910
+    \endverb
+    \verb{eprint}
+    \verb 1807.06209
+    \endverb
+    \field{note}{[Erratum: Astron.Astrophys. 652, C4 (2021)]}
+    \field{pages}{A6}
+    \field{title}{{Planck 2018 results. VI. Cosmological parameters}}
+    \field{volume}{641}
+    \field{journaltitle}{Astron. Astrophys.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.CO}
+    \field{year}{2020}
+  \endentry
+
+  \entry{dalya2022glade+}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=DG}{%
+         family={D{\'a}lya},
+         familyi={D\bibinitperiod},
+         given={Gergely},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{DG+1}
+    \strng{fullhash}{DG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{1}
+    \field{pages}{1403\bibrangedash 1411}
+    \field{title}{GLADE+: an extended galaxy catalogue for multimessenger
+  searches with advanced gravitational-wave detectors}
+    \field{volume}{514}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{year}{2022}
+  \endentry
+
+  \entry{DES:2019jmj}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=DJ}{%
+         family={DeRose},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJ+1}
+    \strng{fullhash}{DJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{eprint}
+    \verb 1901.02401
+    \endverb
+    \field{title}{{The Buzzard Flock: Dark Energy Survey Synthetic Sky
+  Catalogs}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.CO}
+    \field{month}{01}
+    \field{year}{2019}
+  \endentry
+
+  \entry{DES:2021bwg}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=DJ}{%
+         family={DeRose},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJ+1}
+    \strng{fullhash}{DJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.105.123520
+    \endverb
+    \verb{eprint}
+    \verb 2105.13547
+    \endverb
+    \field{number}{12}
+    \field{pages}{123520}
+    \field{title}{{Dark Energy Survey Year 3 results: Cosmology from combined
+  galaxy clustering and lensing validation on cosmological simulations}}
+    \field{volume}{105}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.CO}
+    \field{year}{2022}
+  \endentry
+
+  \entry{ezquiaga2022spectral}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=EJM}{%
+         family={Ezquiaga},
+         familyi={E\bibinitperiod},
+         given={Jose\bibnamedelima Mar{\'\i}a},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HDE}{%
+         family={Holz},
+         familyi={H\bibinitperiod},
+         given={Daniel\bibnamedelima E},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{EJMHDE1}
+    \strng{fullhash}{EJMHDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{number}{6}
+    \field{pages}{061102}
+    \field{title}{Spectral sirens: Cosmology from the full mass distribution of
+  compact binaries}
+    \field{volume}{129}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{2022}
+  \endentry
+
+  \entry{gray2020cosmological}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=GR}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Rachel},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{GR+1}
+    \strng{fullhash}{GR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{12}
+    \field{pages}{122001}
+    \field{title}{Cosmological inference using gravitational wave standard
+  sirens: A mock data analysis}
+    \field{volume}{101}
+    \field{journaltitle}{Physical Review D}
+    \field{year}{2020}
+  \endentry
+
+  \entry{gray2022pixelated}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=GR}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Rachel},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{GR+1}
+    \strng{fullhash}{GR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{1}
+    \field{pages}{1127\bibrangedash 1140}
+    \field{title}{A pixelated approach to galaxy catalogue incompleteness:
+  improving the dark siren measurement of the Hubble constant}
+    \field{volume}{512}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{year}{2022}
+  \endentry
+
+  \entry{gray2023joint}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=GR}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Rachel},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{GR+1}
+    \strng{fullhash}{GR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{12}
+    \field{pages}{023}
+    \field{title}{Joint cosmological and gravitational-wave population
+  inference using dark sirens and galaxy catalogues}
+    \field{volume}{2023}
+    \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+    \field{year}{2023}
+  \endentry
+
+  \entry{kochanek2001k}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=KC}{%
+         family={Kochanek},
+         familyi={K\bibinitperiod},
+         given={CS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{KC+1}
+    \strng{fullhash}{KC+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{2}
+    \field{pages}{566}
+    \field{title}{The k-band galaxy luminosity function}
+    \field{volume}{560}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2001}
+  \endentry
+
+  \entry{lauer2014brightest}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=LTR}{%
+         family={Lauer},
+         familyi={L\bibinitperiod},
+         given={Tod\bibnamedelima R},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Postman},
+         familyi={P\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SMA}{%
+         family={Strauss},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GGJ}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={Genevieve\bibnamedelima J},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CNE}{%
+         family={Chisari},
+         familyi={C\bibinitperiod},
+         given={Nora\bibnamedelima E},
+         giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{LTR+1}
+    \strng{fullhash}{LTRPMSMAGGJCNE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{2}
+    \field{pages}{82}
+    \field{title}{Brightest cluster galaxies at the present epoch}
+    \field{volume}{797}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2014}
+  \endentry
+
+  \entry{madau2014cosmic}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=MP}{%
+         family={Madau},
+         familyi={M\bibinitperiod},
+         given={Piero},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dickinson},
+         familyi={D\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Annual Reviews}%
+    }
+    \strng{namehash}{MPDM1}
+    \strng{fullhash}{MPDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{1}
+    \field{pages}{415\bibrangedash 486}
+    \field{title}{Cosmic star-formation history}
+    \field{volume}{52}
+    \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+    \field{year}{2014}
+  \endentry
+
+  \entry{maggiore2007gravitational}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=MM}{%
+         family={Maggiore},
+         familyi={M\bibinitperiod},
+         given={Michele},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{MM1}
+    \strng{fullhash}{MM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    This book deals with all aspects of gravitational-wave physics, both
+  theoretical and experimental. This first volume deals with gravitational wave
+  (GW) theory and experiments. Part I discusses the theory of GWs, re-deriving
+  afresh and in a coherent way all the results presented. Both the geometrical
+  and the field-theoretical approach to general relativity are discussed. The
+  generation of GWs is discussed first in linearized theory (including the
+  general multipole expansion) and then within the post-Newtonian formalism.
+  Many important calculations (inspiral of compact binaries, GW emission by
+  rotating or precessing bodies, infall into black holes, etc.) are presented.
+  The observation of GWs emission from the change in the orbital period of
+  binary pulsar, such as the Hulse-Taylor pulsar and the double pulsar, is also
+  explained, and the pulsar timing formula is derived. Part II discusses the
+  principles of GW experiments, going into the detail of the functioning of
+  both interferometers and resonant-mass detectors. One chapter is devoted to
+  the data analysis techniques relevant for GW experiments.%
+    }
+    \verb{doi}
+    \verb 10.1093/acprof:oso/9780198570745.001.0001
+    \endverb
+    \field{isbn}{9780198570745}
+    \field{title}{Gravitational Waves: Volume 1: Theory and Experiments}
+    \verb{url}
+    \verb https://doi.org/10.1093/acprof:oso/9780198570745.001.0001
+    \endverb
+    \field{month}{10}
+    \field{year}{2007}
+  \endentry
+
+  \entry{mastrogiovanni2021importance}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=MS}{%
+         family={Mastrogiovanni},
+         familyi={M\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{MS+1}
+    \strng{fullhash}{MS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{6}
+    \field{pages}{062009}
+    \field{title}{On the importance of source population models for
+  gravitational-wave cosmology}
+    \field{volume}{104}
+    \field{journaltitle}{Physical Review D}
+    \field{year}{2021}
+  \endentry
+
+  \entry{mastrogiovanni2024icarogw}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=MS}{%
+         family={Mastrogiovanni},
+         familyi={M\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{MS+2}
+    \strng{fullhash}{MS+2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{A167}
+    \field{title}{ICAROGW: A python package for inference of astrophysical
+  population properties of noisy, heterogeneous, and incomplete observations}
+    \field{volume}{682}
+    \field{journaltitle}{Astronomy \& Astrophysics}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Riess:2019cxk}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=RAG}{%
+         family={Riess},
+         familyi={R\bibinitperiod},
+         given={Adam\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Casertano},
+         familyi={C\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Wenlong},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MLM}{%
+         family={Macri},
+         familyi={M\bibinitperiod},
+         given={Lucas\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Scolnic},
+         familyi={S\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RAG+1}
+    \strng{fullhash}{RAGCSYWMLMSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.3847/1538-4357/ab1422
+    \endverb
+    \verb{eprint}
+    \verb 1903.07603
+    \endverb
+    \field{number}{1}
+    \field{pages}{85}
+    \field{title}{{Large Magellanic Cloud Cepheid Standards Provide a 1\%
+  Foundation for the Determination of the Hubble Constant and Stronger Evidence
+  for Physics beyond $\Lambda$CDM}}
+    \field{volume}{876}
+    \field{journaltitle}{Astrophys. J.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.CO}
+    \field{year}{2019}
+  \endentry
+
+  \entry{schutz1986determining}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=SBF}{%
+         family={Schutz},
+         familyi={S\bibinitperiod},
+         given={Bernard\bibnamedelima F},
+         giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{SBF1}
+    \strng{fullhash}{SBF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1986}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{6086}
+    \field{pages}{310\bibrangedash 311}
+    \field{title}{Determining the Hubble constant from gravitational wave
+  observations}
+    \field{volume}{323}
+    \field{journaltitle}{Nature}
+    \field{year}{1986}
+  \endentry
+
+  \entry{strazzullo2006near}{article}{}{}
+    \name{author}{10}{}{%
+      {{hash=SV}{%
+         family={Strazzullo},
+         familyi={S\bibinitperiod},
+         given={Veronica},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Rosati},
+         familyi={R\bibinitperiod},
+         given={Piero},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Stanford},
+         familyi={S\bibinitperiod},
+         given={SA},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lidman},
+         familyi={L\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=NM}{%
+         family={Nonino},
+         familyi={N\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=DR}{%
+         family={Demarco},
+         familyi={D\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=EP}{%
+         family={Eisenhardt},
+         familyi={E\bibinitperiod},
+         given={PE},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Ettori},
+         familyi={E\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=MV}{%
+         family={Mainieri},
+         familyi={M\bibinitperiod},
+         given={V},
+         giveni={V},
+      }}%
+      {{hash=TS}{%
+         family={Toft},
+         familyi={T\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{SV+1}
+    \strng{fullhash}{SVRPSSLCNMDREPESMVTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{3}
+    \field{pages}{909\bibrangedash 923}
+    \field{title}{The near-infrared luminosity function of cluster galaxies
+  beyond redshift one}
+    \field{volume}{450}
+    \field{journaltitle}{Astronomy \& Astrophysics}
+    \field{year}{2006}
+  \endentry
+
+  \entry{sureshkumar2021galaxy}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=SU}{%
+         family={Sureshkumar},
+         familyi={S\bibinitperiod},
+         given={Unnikrishnan},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Durkalec},
+         familyi={D\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=PA}{%
+         family={Pollo},
+         familyi={P\bibinitperiod},
+         given={Agnieszka},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bilicki},
+         familyi={B\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=LJ}{%
+         family={Loveday},
+         familyi={L\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Farrow},
+         familyi={F\bibinitperiod},
+         given={DJ},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Holwerda},
+         familyi={H\bibinitperiod},
+         given={BW},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hopkins},
+         familyi={H\bibinitperiod},
+         given={AM},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liske},
+         familyi={L\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=PK}{%
+         family={Pimbblet},
+         familyi={P\bibinitperiod},
+         given={KA},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{SU+1}
+    \strng{fullhash}{SUDAPABMLJFDHBHALJPK+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{A35}
+    \field{title}{Galaxy and Mass Assembly (GAMA)-Tracing galaxy environment
+  using the marked correlation function}
+    \field{volume}{653}
+    \field{journaltitle}{Astronomy \& Astrophysics}
+    \field{year}{2021}
+  \endentry
+\enddatalist
+\endinput

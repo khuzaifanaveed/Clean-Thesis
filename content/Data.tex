@@ -1,0 +1,129 @@
+\chapter{Data}
+\label{chap:data}
+
+
+The foundation of any standard siren cosmological analysis lies in the quality, completeness, and coverage of the data. In this thesis, we rely on two primary data sources: \ac{GW} observations from the \ac{LVK} detectors, and galaxy catalogs providing \ac{EM} redshift information. These datasets are used in tandem to statistically contruct a redshift prior for each \ac{GW} event and ultimately to constrain the Hubble constant $H_0$.
+
+\section{\ac{GW} Event Data}
+
+\subsection{The GWTC-3 Catalog}
+
+The \ac{GW} data used in this study are obtained from the \textit{\ac{GWTC}}~\citep{abbott201gwtc1, abbott2021gwtc2, abbott2024gwtc21, abbott2023gwtc3}. This catalog comprises all \ac{CBC} events detected during the three observing runs (O1, O2, O3) of the Advanced LIGO and Virgo detectors. \ac{GWTC} includes over 93 confident detections, primarily \ac{BBH} mergers, with a few \ac{NSBH} and \ac{BNS} systems.
+
+\subsection{Event Selection Criteria}
+
+To focus our analysis on dark siren cosmology, we restrict our sample to events that do not have any confirmed electromagnetic counterpart (i.e., no associated kilonova or GRB), have a network \ac{SNR} exceeding 11, have somewhat good sky localization, and are accompanied by publicly available posterior samples for distance and sky position.
+
+These criteria are designed to ensure both the statistical robustness of the inference and compatibility with existing galaxy catalogs. After applying these cuts, a subset of 47 events, with 42 \acp{BBH}, 3
+\acp{NSBH}, and 2 \acp{BNS}, is retained for cosmological analysis.
+
+\subsection{Distance Posteriors and Sky Localization}
+
+Each event is characterized by a posterior distribution over the three-dimensional localization volume, typically encoded using the HEALPix format. The posterior provides the probability density $p(d_L, \alpha, \delta)$, where $d_L$ is the luminosity distance and $(\alpha, \delta)$ denote right ascension and declination.
+
+These distance posteriors are crucial for constructing the \ac{LOS} redshift prior when cross-matched with galaxy catalogs. Events with poor localization or multimodal distance distributions contribute more uncertainty to the inferred $H_0$, emphasizing the importance of event quality.
+
+\subsection{Assumptions About the Source Population}
+\label{sec:source_population}
+
+Although this thesis primarily focuses on statistical redshift modeling, it is important to acknowledge that the cosmological inference also depends weakly on assumptions about the source population. For instance, \texttt{gwcosmo} allows one to specify priors on:
+\vspace{-2em}
+\begin{itemize}
+  \item Merger rate evolution with redshift, typically modeled as \( R(z) \propto (1+z)^\kappa \)
+  \vspace{-1em}
+  \item Mass distributions of the binaries
+\end{itemize}
+
+For our analysis we assume that \acp{CBC} follow a Madau-Dickinson merger redshift evolution model \citep{madau2014cosmic}:
+\begin{align}
+    R(z) = R_0(1+z)^{\gamma}\frac{1+(1+z_p)^{-(\gamma+\kappa)}}{1+\left( \frac{1+z}{1+z_p}\right)^{\gamma + \kappa}}
+\end{align}
+Here $R_0$ is the local merger rate, $\kappa$ the high-z slope, $\gamma$ the low-z slop and $z_p$ the break-point. All the assumed priors are given in Table \ref{tab:Madau}. \textbf{TODO: add sources for the parameters.}
+
+\begin{table}[h!]
+    \centering
+    \caption{Priors on merger rate shape parameters.}
+    \label{tab:Madau}
+    \begin{tabular}{c l}
+        \hline
+        \textbf{Parameter} & \textbf{Prior} \\
+        \hline
+         $R_0$ & $1/R_0$ (implicit) \\
+         $\kappa$ & $2.86$ \\
+         $\gamma$ & $4.59$ \\
+         $z_p$ & $2.47$ \\
+         \hline
+    \end{tabular}
+\end{table}
+
+For \ac{BBH} we use power-law with a Gaussian peak mass model, with powerlaw slope $\alpha$, the mean of the Gaussian $\sigma_g$, the width 
+of the peak $\mu_g$, and the relative weight between power-law and
+the peak $\lambda_g$. We also assume the minimum and maximum masses for the black hole distribution. For neutron stars we assume that
+mass is uniformly distributed between $M_{min,NS}$ and
+$M_{max,NS}$. All the assumed priors are given in Table \ref{tab:mass_dist}. \textbf{TODO: add sources for the parameters.}
+
+\begin{table}[h!]
+    \centering
+    \caption{Priors on the mass model parameters.}
+    \label{tab:mass_dist}
+    \begin{tabular}{c l}
+        \hline
+        \textbf{Parameter} & \textbf{Prior} \\
+        \hline
+         $\alpha$ & $3.78$ \\
+         $\sigma_g$ & $3.88$ \\
+         $\mu_g$ & $32.27$ \\
+         $\lambda_g$ & $0.03$ \\
+         $M_{min,BH}$ & $4.98M_{\odot}$ \\
+         $M_{max,BH}$ & $112.5M_{\odot}$ \\
+         $M_{min, NS}$ & $1.0M_{\odot}$ \\
+         $M_{max, NS}$ & $3.0M_{\odot}$ \\
+         \hline
+    \end{tabular}
+\end{table}
+
+
+\section{\ac{EM} Galaxy Catalogs}
+
+\subsection{The GLADE+ Catalog}
+
+For redshift information, we use the \textbf{GLADE+} galaxy catalog~\citep{dalya2022glade+}, an extended version of the original GLADE catalog designed for \ac{GW} follow-up. GLADE+ is a composite catalog that combines several large surveys to achieve all-sky coverage:
+\vspace{-2em}
+\begin{itemize}
+  \item 2MASS XSC and 2MPZ (infrared-based all-sky surveys)
+  \vspace{-1em}
+  \item WISExSCOS (photometric redshifts)
+  \vspace{-1em}
+  \item HyperLEDA (spectroscopic redshifts)
+  \vspace{-1em}
+  \item SDSS DR16 (optical photometric and spectroscopic data)
+\end{itemize}
+
+As of the latest release, GLADE+ includes over 22 million objects with available positions, redshifts (spectroscopic or photometric), and photometry in multiple bands, most critically the $K$-band.
+
+\subsection{Catalog Completeness}
+\label{sec:luminosity_function}
+
+A significant limitation of GLADE+ is its incompleteness beyond redshift $z \sim 0.3$. While the catalog is approximately complete for bright galaxies at low redshift, its coverage of fainter galaxies or more distant regions is limited. This incompleteness introduces a bias when performing statistical redshift inference, as missing galaxies contribute to the out-of-catalog part of the redshift prior.
+
+To address this, the \texttt{gwcosmo} pipeline models the galaxy population using a truncated Schechter luminosity function:
+\begin{align}
+    \phi(M) \propto 10^{0.4(\alpha + 1)(M - M^*)} \exp[-10^{0.4(M - M^*)}]
+\end{align}
+where \( M \) is the absolute magnitude in the $K$-band, $M^*$ is the characteristic magnitude, and $\alpha$ is the faint-end slope. For our analysis, we adopt the standard parameters: $\alpha = -1.09$, $M^*_K = -23.39 + 5\log h$, consistent with \cite{kochanek2001k}, and truncate at $M^*_{K,min} = -27.00 + 5\log h$ and $M^*_{K,max} = -19.00 + 5\log h$.
+
+\subsection{Redshift Uncertainty Modeling}
+
+Redshift measurements in GLADE+ are heterogeneous. Spectroscopic redshifts are generally precise, but photometric redshifts can have uncertainties on the order of $\sigma_z \sim 0.01-0.05$. These uncertainties are modeled by convolving the redshift of each galaxy with a Gaussian of fixed width, an assumption used in constructing the redshift prior.
+
+Additionally, to reduce systematic error, galaxies with unphysical redshifts or unreliable photometry are filtered out during preprocessing. The net result is a cleaned, sky-localized, and redshift-tagged galaxy distribution that can be used for \ac{LOS} prior construction.
+
+Furthermore, $K$-corrections are applied in \texttt{gwcosmo} following \cite{kochanek2001k}, and the apparent magnitude thresholds $m_{thr}$ are computed per HEALPix pixel as a median apparent magnitude in a given pixel, giving a $K$-band threshold of 13.5 on average.
+
+\subsection{$K$-band Luminosity as Host Probability Proxy}
+
+In dark siren analysis, we must assign each galaxy a probability of being the true host. Following common practice, this probability is assumed to scale with stellar mass, for which $K$-band luminosity serves as a good proxy \textbf{CITATION NEEDED}. The host probability  $p_i$ for each galaxy is given by:
+\begin{align}
+    p_i \propto L_{K, i}
+\end{align}
+This choice is motivated by the assumption that more massive galaxies are more likely to host \acp{CBC} events. While simplistic, it provides a reasonable baseline.

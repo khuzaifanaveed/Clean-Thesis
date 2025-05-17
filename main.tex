@@ -1,0 +1,203 @@
+%% LLT: Turn off some annoying warnings...
+\RequirePackage{silence}
+\WarningFilter{titlesec}{Non standard sectioning command}
+\WarningFilter{scrreprt}{Usage of package}
+\WarningFilter{scrreprt}{Activating an ugly workaround}
+
+% **************************************************
+% Document Class Definition
+% **************************************************
+\documentclass[%
+	paper=A4,					% paper size --> A4 is default in Germany
+	twoside=true,				% onesite or twoside printing
+	openright,					% doublepage cleaning ends up right side
+	parskip=full,				% spacing value / method for paragraphs
+	chapterprefix=true,			% prefix for chapter marks
+	11pt,						% font size
+	headings=normal,			% size of headings
+	bibliography=totoc,			% include bib in toc
+	listof=totoc,				% include listof entries in toc
+	titlepage=on,				% own page for each title page
+	captions=tableabove,		% display table captions above the float env
+	draft=false,				% value for draft version
+]{scrreprt}%
+
+% **************************************************
+% Debug LaTeX Information
+% **************************************************
+%\listfiles
+
+% **************************************************
+% Information and Commands for Reuse
+% **************************************************
+\newcommand{\thesisTitle}{Bright Galaxies as Redshift Tracers for Dark Siren Cosmology}
+\newcommand{\thesisName}{Muhammad Khuzaifa Naveed}
+\newcommand{\thesisSubject}{Master Thesis}
+\newcommand{\thesisDate}{AY 2024-2025}
+\newcommand{\thesisDateSubmission}{June, 2025}
+\newcommand{\thesisVersion}{First Draft}
+
+%\newcommand{\thesisFirstReviewer}{Jane Doe}
+%\newcommand{\thesisFirstReviewerUniversity}{\protect{Ghent University}}
+%\newcommand{\thesisFirstReviewerDepartment}{Department of Clean Thesis %Style}
+%
+%\newcommand{\thesisSecondReviewer}{John Doe}
+%\newcommand{\thesisSecondReviewerUniversity}{\protect{Ghent University}}
+%\newcommand{\thesisSecondReviewerDepartment}{Department of Clean Thesis Style}
+
+\newcommand{\thesisFirstSupervisor}{Prof. Dr. Archisman Ghosh}
+%\newcommand{\thesisSecondSupervisor}{John Smith}
+
+\newcommand{\thesisUniversity}{\protect{Ghent University}}
+\newcommand{\thesisUniversityDepartment}{Department of Physics and Astronomy}
+%\newcommand{\thesisUniversityInstitute}{Institut for Clean Thesis Dev}
+\newcommand{\thesisUniversityGroup}{Ghent Gravity Group}
+\newcommand{\thesisUniversityCity}{Ghent}
+\newcommand{\thesisUniversityStreetAddress}{Proeftuinstraat 86}
+\newcommand{\thesisUniversityPostalCode}{9000}
+
+% **************************************************
+% Load and Configure Packages
+% **************************************************
+\usepackage{pdfpages}
+\usepackage{svg}
+\usepackage[printonlyused,withpage]{acronym}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage[toc,acronym]{glossaries}
+\usepackage[utf8]{inputenc}		% defines file's character encoding
+\usepackage[english]{babel} % babel system, adjust the language of the content
+\usepackage[					% clean thesis style
+	figuresep=colon,%
+	sansserif=false,%
+	hangfigurecaption=false,%
+	hangsection=true,%
+	hangsubsection=true,%
+	colorize=full,%
+	colortheme=bluemagenta,%
+% LLT: Use biber if using UTF8 encoding
+ 	bibsys=bibtex,%
+%	bibsys=biber,%
+	bibfile=bib-refs,%
+	bibstyle=authoryear,%
+]{cleanthesis}
+
+\hypersetup{					% setup the hyperref-package options
+	pdftitle={\thesisTitle},	% 	- title (PDF meta)
+	pdfsubject={\thesisSubject},% 	- subject (PDF meta)
+	pdfauthor={\thesisName},	% 	- author (PDF meta)
+	plainpages=false,			% 	-
+	colorlinks=true,			% 	- colorize links?
+	pdfborder={0 0 0},			% 	-
+	breaklinks=true,			% 	- allow line break inside links
+	bookmarksnumbered=true,		%
+	bookmarksopen=true,			%
+        linkcolor= black,
+        anchorcolor = ctcoloraccessory,
+        citecolor = ctcoloraccessory,
+        filecolor = ctcoloraccessory,
+        menucolor = red,
+        runcolor = ctcoloraccessory,
+        urlcolor = ctcoloraccessory
+}
+
+\renewcommand{\cftloftitlefont}{\thesischapterfont\huge\bfseries}
+\renewcommand{\cftfigfont}{\helv\normalsize}
+
+\renewcommand{\cftlottitlefont}{\thesischapterfont\huge\bfseries}
+\renewcommand{\cfttabfont}{\helv\normalsize}
+
+\renewcommand{\cfttoctitlefont}{\thesischapterfont\huge\bfseries}
+\renewcommand{\cftchapfont}{\thesisparagraphfont\normalsize\bfseries}
+\renewcommand{\cftsecfont}{\helv}
+\renewcommand{\cftsubsecfont}{\helv}
+% **************************************************
+% Document CONTENT
+% **************************************************
+\begin{document}
+
+% --------------------------
+% rename document parts
+% --------------------------
+%\renewcaptionname{ngerman}{\figurename}{Abb.}
+%\renewcaptionname{ngerman}{\tablename}{Tab.}
+\renewcaptionname{english}{\figurename}{Fig.}
+\renewcaptionname{english}{\tablename}{Tab.}
+
+% --------------------------
+% Front matter
+% --------------------------
+\pagenumbering{roman}			% roman page numbing (invisible for empty page style)
+\pagestyle{empty}				% no header or footers
+\input{content/titlepages}		% INCLUDE: all titlepages
+\cleardoublepage
+
+\input{content/declaration}
+\clearpage
+\newpage
+\mbox{}
+
+\input{content/acknowledgement} % INCLUDE: acknowledgement
+\cleardoublepage
+
+\pagestyle{plain}				% display just page numbers
+\input{content/abstract}		% INCLUDE: the abstracts
+\cleardoublepage
+
+\setcounter{tocdepth}{2}		% define depth of toc
+\tableofcontents				% display table of contents
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+\label{lof:toc}
+
+\listoffigures
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
+\label{lot:toc}
+
+\listoftables
+\cleardoublepage
+
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Abbreviations and Symbols}
+{\setkomafont{chapter}{\thesischapterfont\huge\bfseries} % Match the chapter font
+\chapter*{List of Abbreviations and Symbols}}
+\input{content/Acronyms}
+\cleardoublepage
+
+% --------------------------
+% Body matter
+% --------------------------
+\pagenumbering{arabic}			% arabic page numbering
+\setcounter{page}{1}			% set page counter
+\pagestyle{maincontentstyle} 	% fancy header and footer
+
+\input{content/Introduction}
+\input{content/DarkSirenCosmology}
+\input{content/Data}
+\input{content/Methodology}
+%\input{content/Results}
+\input{content/MockDataChallenge}
+\input{content/Discussion}
+\input{content/Conclusion}
+\cleardoublepage
+
+% --------------------------
+% Back matter
+% --------------------------
+
+\setstretch{1.1}
+\renewcommand{\bibfont}{\normalfont\small}
+\setlength{\biblabelsep}{0pt}
+\setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}
+\printbibliography
+\cleardoublepage
+
+% **************************************************
+% End of Document CONTENT
+% **************************************************
+\end{document}
