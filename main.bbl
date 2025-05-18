@@ -358,6 +358,242 @@
     \field{year}{2020}
   \endentry
 
+  \entry{alam2021completed}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=AS}{%
+         family={Alam},
+         familyi={A\bibinitperiod},
+         given={Shadab},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Aubert},
+         familyi={A\bibinitperiod},
+         given={Marie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Avila},
+         familyi={A\bibinitperiod},
+         given={Santiago},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Balland},
+         familyi={B\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BJE}{%
+         family={Bautista},
+         familyi={B\bibinitperiod},
+         given={Julian\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BMA}{%
+         family={Bershady},
+         familyi={B\bibinitperiod},
+         given={Matthew\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Bizyaev},
+         familyi={B\bibinitperiod},
+         given={Dmitry},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BMR}{%
+         family={Blanton},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BAS}{%
+         family={Bolton},
+         familyi={B\bibinitperiod},
+         given={Adam\bibnamedelima S},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bovy},
+         familyi={B\bibinitperiod},
+         given={Jo},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{ASAMASBCBJEBMABDBMRBASBJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{8}
+    \field{pages}{083533}
+    \field{title}{Completed SDSS-IV extended Baryon Oscillation Spectroscopic
+  Survey: Cosmological implications from two decades of spectroscopic surveys
+  at the Apache Point Observatory}
+    \field{volume}{103}
+    \field{journaltitle}{Physical Review D}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Baade1952}{inbook}{}{}
+    \name{author}{1}{}{%
+      {{hash=BW}{%
+         family={Baade},
+         familyi={B\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=LKR}{%
+         family={Lang},
+         familyi={L\bibinitperiod},
+         given={Kenneth\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GO}{%
+         family={Gingerich},
+         familyi={G\bibinitperiod},
+         given={Owen},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Harvard University Press}%
+    }
+    \strng{namehash}{BW1}
+    \strng{fullhash}{BW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1979}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{A Source Book in Astronomy and Astrophysics, 1900–1975}
+    \verb{doi}
+    \verb doi:10.4159/harvard.9780674366688.c118
+    \endverb
+    \field{isbn}{9780674366688}
+    \field{pages}{750\bibrangedash 752}
+    \field{title}{110. A Revision of the Extra-Galactic Distance Scale}
+    \verb{url}
+    \verb https://doi.org/10.4159/harvard.9780674366688.c118
+    \endverb
+    \list{location}{2}{%
+      {Cambridge, MA}%
+      {London, England}%
+    }
+    \field{year}{1979}
+  \endentry
+
+  \entry{Baade1944}{incollection}{}{}
+    \name{author}{1}{}{%
+      {{hash=BW}{%
+         family={Baade},
+         familyi={B\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Harvard University Press}%
+    }
+    \strng{namehash}{BW1}
+    \strng{fullhash}{BW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1979}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{A Source Book in Astronomy and Astrophysics, 1900--1975}
+    \field{pages}{744\bibrangedash 749}
+    \field{title}{The resolution of Messier 32, NGC 205, and the central region
+  of the Andromeda Nebula}
+    \field{year}{1979}
+  \endentry
+
+  \entry{cern2025}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CERN},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{{The Hubble tension; CERN Courier}}
+    \verb{url}
+    \verb https://cerncourier.com/the-hubble-tension/
+    \endverb
+    \field{month}{03}
+    \field{year}{2025}
+  \endentry
+
+  \entry{cuceu2019baryon}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=CA}{%
+         family={Cuceu},
+         familyi={C\bibinitperiod},
+         given={Andrei},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Farr},
+         familyi={F\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Lemos},
+         familyi={L\bibinitperiod},
+         given={Pablo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FRA}{%
+         family={Font-Ribera},
+         familyi={F\bibinithyphendelim R\bibinitperiod},
+         given={Andreu},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{CA+1}
+    \strng{fullhash}{CAFJLPFRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{10}
+    \field{pages}{044}
+    \field{title}{Baryon acoustic oscillations and the Hubble constant: past,
+  present and future}
+    \field{volume}{2019}
+    \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+    \field{year}{2019}
+  \endentry
+
   \entry{dalya2022glade+}{article}{}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -387,6 +623,31 @@
     \field{volume}{514}
     \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
     \field{year}{2022}
+  \endentry
+
+  \entry{de1985tycho}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=DVG}{%
+         family={De\bibnamedelima Vaucouleurs},
+         familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+    }
+    \strng{namehash}{DVG1}
+    \strng{fullhash}{DVG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1985}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{pages}{5\bibrangedash 9}
+    \field{title}{Tycho's supernova and the Hubble constant}
+    \field{volume}{289}
+    \field{journaltitle}{Astrophysical Journal, Part 1 (ISSN 0004-637X), vol.
+  289, Feb. 1, 1985, p. 5-9.}
+    \field{year}{1985}
   \endentry
 
   \entry{DES:2019jmj}{article}{}{}
@@ -490,6 +751,189 @@
     \field{year}{2022}
   \endentry
 
+  \entry{cosmicdistanceladder}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=FWL}{%
+         family={Freedman},
+         familyi={F\bibinitperiod},
+         given={Wendy\bibnamedelima L.},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MBF}{%
+         family={Madore},
+         familyi={M\bibinitperiod},
+         given={Barry\bibnamedelima F.},
+         giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Annual Reviews}%
+    }
+    \strng{namehash}{FWLMBF1}
+    \strng{fullhash}{FWLMBF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb https://doi.org/10.1146/annurev-astro-082708-101829
+    \endverb
+    \field{issn}{1545-4282}
+    \field{number}{Volume 48, 2010}
+    \field{pages}{673\bibrangedash 710}
+    \field{title}{The Hubble Constant}
+    \verb{url}
+    \verb https://www.annualreviews.org/content/journals/10.1146/annurev-astro-
+    \verb 082708-101829
+    \endverb
+    \field{volume}{48}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+    \field{year}{2010}
+  \endentry
+
+  \entry{freedman2001final}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=FWL}{%
+         family={Freedman},
+         familyi={F\bibinitperiod},
+         given={Wendy\bibnamedelima L},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MBF}{%
+         family={Madore},
+         familyi={M\bibinitperiod},
+         given={Barry\bibnamedelima F},
+         giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=GBK}{%
+         family={Gibson},
+         familyi={G\bibinitperiod},
+         given={Brad\bibnamedelima K},
+         giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Ferrarese},
+         familyi={F\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KDD}{%
+         family={Kelson},
+         familyi={K\bibinitperiod},
+         given={Daniel\bibnamedelima D},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sakai},
+         familyi={S\bibinitperiod},
+         given={Shoko},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MJR}{%
+         family={Mould},
+         familyi={M\bibinitperiod},
+         given={Jeremy\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KJRC}{%
+         family={Kennicutt\bibnamedelima Jr},
+         familyi={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Robert\bibnamedelima C},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FHC}{%
+         family={Ford},
+         familyi={F\bibinitperiod},
+         given={Holland\bibnamedelima C},
+         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=GJA}{%
+         family={Graham},
+         familyi={G\bibinitperiod},
+         given={John\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{FWL+1}
+    \strng{fullhash}{FWLMBFGBKFLKDDSSMJRKJRCFHCGJA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{1}
+    \field{pages}{47}
+    \field{title}{Final Results from the Hubble Space TelescopeKey Project to
+  Measure the HubbleConstant}
+    \field{volume}{553}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2001}
+  \endentry
+
+  \entry{freedman2024status}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=FWL}{%
+         family={Freedman},
+         familyi={F\bibinitperiod},
+         given={Wendy\bibnamedelima L},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MBF}{%
+         family={Madore},
+         familyi={M\bibinitperiod},
+         given={Barry\bibnamedelima F},
+         giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=JIS}{%
+         family={Jang},
+         familyi={J\bibinitperiod},
+         given={In\bibnamedelima Sung},
+         giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HTJ}{%
+         family={Hoyt},
+         familyi={H\bibinitperiod},
+         given={Taylor\bibnamedelima J},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LAJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Abigail\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=OKA}{%
+         family={Owens},
+         familyi={O\bibinitperiod},
+         given={Kayla\bibnamedelima A},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FWL+1}
+    \strng{fullhash}{FWLMBFJISHTJLAJOKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{pages}{arXiv\bibrangedash 2408}
+    \field{title}{Status report on the Chicago-Carnegie Hubble Program (CCHP):
+  Three independent astrophysical determinations of the Hubble constant using
+  the James Webb Space Telescope}
+    \field{journaltitle}{arXiv e-prints}
+    \field{year}{2024}
+  \endentry
+
   \entry{gray2020cosmological}{article}{}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -583,6 +1027,62 @@
     \field{year}{2023}
   \endentry
 
+  \entry{hubble1936realm}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HEP}{%
+         family={{Hubble}},
+         familyi={H\bibinitperiod},
+         given={E.\bibnamedelima P.},
+         giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HEP1}
+    \strng{fullhash}{HEP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1936}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{{Realm of the Nebulae}}
+    \field{year}{1936}
+  \endentry
+
+  \entry{hubble1929}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=HE}{%
+         family={Hubble},
+         familyi={H\bibinitperiod},
+         given={Edwin},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HE1}
+    \strng{fullhash}{HE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1929}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1073/pnas.15.3.168
+    \endverb
+    \verb{eprint}
+    \verb https://www.pnas.org/doi/pdf/10.1073/pnas.15.3.168
+    \endverb
+    \field{number}{3}
+    \field{pages}{168\bibrangedash 173}
+    \field{title}{A relation between distance and radial velocity among
+  extra-galactic nebulae}
+    \verb{url}
+    \verb https://www.pnas.org/doi/abs/10.1073/pnas.15.3.168
+    \endverb
+    \field{volume}{15}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{1929}
+  \endentry
+
   \entry{kochanek2001k}{article}{}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -663,6 +1163,60 @@
     \field{volume}{797}
     \field{journaltitle}{The Astrophysical Journal}
     \field{year}{2014}
+  \endentry
+
+  \entry{lemaitre1927univers}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=LG}{%
+         family={Lema{\^\i}tre},
+         familyi={L\bibinitperiod},
+         given={Georges},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LG1}
+    \strng{fullhash}{LG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1927}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{pages}{49\bibrangedash 59}
+    \field{title}{Un Univers homog{\`e}ne de masse constante et de rayon
+  croissant rendant compte de la vitesse radiale des n{\'e}buleuses
+  extra-galactiques}
+    \field{volume}{47}
+    \field{journaltitle}{Annales de la Soci{\'e}t{\'e} Scientifique de
+  Bruxelles, A47, p. 49-59}
+    \field{year}{1927}
+  \endentry
+
+  \entry{Longair_2006}{inbook}{}{}
+    \name{author}{1}{}{%
+      {{hash=LMS}{%
+         family={Longair},
+         familyi={L\bibinitperiod},
+         given={Malcolm\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{LMS1}
+    \strng{fullhash}{LMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{booktitle}{The Cosmic Century: A History of Astrophysics and
+  Cosmology}
+    \field{pages}{340\bibrangedash 364}
+    \field{title}{The determination of cosmological parameters}
+    \field{year}{2006}
   \endentry
 
   \entry{madau2014cosmic}{article}{}{}
@@ -868,6 +1422,147 @@
     \field{year}{2019}
   \endentry
 
+  \entry{riess2022comprehensive}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=RAG}{%
+         family={Riess},
+         familyi={R\bibinitperiod},
+         given={Adam\bibnamedelima G},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Wenlong},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=MLM}{%
+         family={Macri},
+         familyi={M\bibinitperiod},
+         given={Lucas\bibnamedelima M},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Scolnic},
+         familyi={S\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Brout},
+         familyi={B\bibinitperiod},
+         given={Dillon},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Casertano},
+         familyi={C\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JDO}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={David\bibnamedelima O},
+         giveni={D\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=MY}{%
+         family={Murakami},
+         familyi={M\bibinitperiod},
+         given={Yukei},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=AGS}{%
+         family={Anand},
+         familyi={A\bibinitperiod},
+         given={Gagandeep\bibnamedelima S},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Breuval},
+         familyi={B\bibinitperiod},
+         given={Louise},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{RAG+2}
+    \strng{fullhash}{RAGYWMLMSDBDCSJDOMYAGSBL+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{1}
+    \field{pages}{L7}
+    \field{title}{A comprehensive measurement of the local value of the Hubble
+  constant with 1 km s- 1 Mpc- 1 uncertainty from the Hubble Space Telescope
+  and the SH0ES team}
+    \field{volume}{934}
+    \field{journaltitle}{The Astrophysical journal letters}
+    \field{year}{2022}
+  \endentry
+
+  \entry{sandage1958current}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Sandage},
+         familyi={S\bibinitperiod},
+         given={Allan},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1958}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{513}
+    \field{title}{Current Problems in the Extragalactic Distance Scale.}
+    \field{volume}{127}
+    \field{journaltitle}{Astrophysical Journal, vol. 127, p. 513}
+    \field{year}{1958}
+  \endentry
+
+  \entry{sandage1982steps}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=SA}{%
+         family={Sandage},
+         familyi={S\bibinitperiod},
+         given={Allan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tammann},
+         familyi={T\bibinitperiod},
+         given={GA},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SATG1}
+    \strng{fullhash}{SATG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1982}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{339\bibrangedash 345}
+    \field{title}{Steps toward the Hubble constant. VIII-The global value}
+    \field{volume}{256}
+    \field{journaltitle}{Astrophysical Journal, Part 1, vol. 256, May 15, 1982,
+  p. 339-345. Research supported by the Swiss National Science Foundation;}
+    \field{year}{1982}
+  \endentry
+
   \entry{schutz1986determining}{article}{}{}
     \name{author}{1}{}{%
       {{hash=SBF}{%
@@ -1062,6 +1757,36 @@
     \field{volume}{653}
     \field{journaltitle}{Astronomy \& Astrophysics}
     \field{year}{2021}
+  \endentry
+
+  \entry{de1972velocity}{inproceedings}{}{}
+    \name{author}{1}{}{%
+      {{hash=dVG}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Vaucouleurs},
+         familyi={V\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{VGd1}
+    \strng{fullhash}{VGd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1972}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{booktitle}{Symposium-International Astronomical Union}
+    \field{pages}{353\bibrangedash 366}
+    \field{title}{The velocity-distance relation and the Hubble constant for
+  nearby groups of galaxies}
+    \field{volume}{44}
+    \field{year}{1972}
   \endentry
 \enddatalist
 \endinput
