@@ -51,6 +51,66 @@ While the bright galaxy subsets may not be a perfect representation of the overa
 
 %In Chapters~\ref{chap:results} and~\ref{chap:mockdata}, we quantify these trade-offs using both real data and mock catalogs.
 
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_0.png}
+    \label{fig:gladep100}
+  \end{subfigure}
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_1.png}
+    \label{fig:gladep90}
+  \end{subfigure}
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_2.png}
+    \label{fig:gladep80}
+  \end{subfigure}
+  \vspace{0.5em}
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_3.png}
+    \label{fig:gladep70}
+  \end{subfigure}
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_4.png}
+    \label{fig:gladep60}
+  \end{subfigure}
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_5.png}
+    \label{fig:gladep50}
+  \end{subfigure}
+  \vspace{0.5em}
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_6.png}
+    \label{fig:gladep40}
+  \end{subfigure}
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_7.png}
+    \label{fig:gladep30}
+  \end{subfigure}
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_8.png}
+    \label{fig:gladep20}
+  \end{subfigure}
+
+  \vspace{0.5em}
+
+  \begin{subfigure}{0.32\textwidth}
+    \includegraphics[width=\linewidth]{figures/test_frame_g_9.png}
+    \label{fig:gladep10}
+  \end{subfigure}
+  \begin{subfigure}{0.64\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/test_frame_g_colorbar.png}
+    \vspace{0.02em}
+  \end{subfigure}
+
+  \caption[Spatial distribution of galaxies from the GLADE+ galaxy catalog and its subsets.]{Spatial distribution of galaxies from the GLADE+ catalog and its bright subsets, employed for dark standard siren cosmology. The plots show a 10-degree slice in declination, centered at $0^\circ$, with the radial coordinate representing luminosity distance $d_L$ (in Gpc) and the angular coordinates being right ascension (RA). This shows how the bright galaxies trace the large-scale structure of the universe.}
+  \label{fig:dist_gladep}
+\end{figure}
+
+
+\newpage
+
 \section{The \texttt{gwcosmo} Pipeline}
 Based on the work presented in \cite{gray2020cosmological,gray2022pixelated,gray2023joint}, \texttt{gwcosmo} is a Python package specifically designed for the joint inference of cosmological parameters using data from standard sirens and galaxy catalogs.  The pipeline employs Bayesian inference techniques to simultaneously constrain cosmological parameters, such as the Hubble constant and dark energy equation of state parameters. It does this using various data inputs, including the gravitational wave strain data from gravitational wave observatories such as LIGO, Virgo, and KAGRA, entries from galaxy catalogs containing photometric or spectroscopic redshift information, as well as other relevant galaxy properties, and \ac{CBC} source population models. 
 
@@ -59,7 +119,7 @@ Based on the work presented in \cite{gray2020cosmological,gray2022pixelated,gray
 The pipeline is designed to be flexible and extensible, allowing users to customize the models and priors used in the analysis. It also provides tools for visualizing the results, including posterior distributions and confidence intervals for the inferred parameters. The package is built on top of established libraries such as \texttt{numpy}, \texttt{scipy}, and \texttt{matplotlib}, making it accessible to researchers familiar with these tools.
 The \texttt{gwcosmo} pipeline is a particularly useful tool in the intersection of gravitational wave astronomy and cosmology, as it enables the extraction of valuable cosmological information from gravitational wave events, which can complement traditional methods of measuring cosmological parameters. The package is actively maintained and updated to incorporate new developments in both gravitational wave detection and cosmological modeling, ensuring that it remains a relevant tool for researchers in the field.
 
-\subsection{Bayesian Framework: \textbf{TO BE UPDATED}}
+\subsection{Bayesian Framework: \textbf{TO BE UPDATED} (see gwcosmo paper)}
 The goal is to evaluate the posterior distribution:
 \begin{equation}
 p(\Lambda \mid \{d_{\text{GW}}\}, \{d_{\text{EM}}\}) \propto p(\Lambda) \, p(\{d_{\text{GW}}\}, \{d_{\text{EM}}\} \mid \Lambda),
@@ -202,7 +262,7 @@ Table~\ref{tab:h0_stats} summarizes the $H_0$ posteriors for all cuts. The uncer
     \label{tab:h0_stats}
 \end{table}
 
-\subsection{Cost–benefit trade-off} 
+\subsection{Cost-Benefit Trade-Off} 
 We observe that precision improves with increasing brightness until an optimum is reached (near \texttt{GLADEP20}). Beyond this point, the posterior widens again, moving towards an empty catalog result, due to under-sampling. This defines a practical limit for catalog pruning. In real applications, the exact optimum may depend on event SNR, catalog completeness, and the merger rate model.
 
 Our results suggest that targeting the brightest galaxies in a well-characterized catalog can substantially improve the statistical precision of $H_0$ constraints from dark sirens. This approach complements other efforts to mitigate catalog incompleteness, including joint inference with galaxy clustering and population-informed redshift estimation.
