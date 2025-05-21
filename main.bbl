@@ -444,6 +444,82 @@
     \field{year}{2021}
   \endentry
 
+  \entry{bilby_mcmc_paper}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=AG}{%
+         family={Ashton},
+         familyi={A\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Talbot},
+         familyi={T\bibinitperiod},
+         given={Colm},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AGTC1}
+    \strng{fullhash}{AGTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1093/mnras/stab2236
+    \endverb
+    \verb{eprint}
+    \verb 2106.08730
+    \endverb
+    \field{number}{2}
+    \field{pages}{2037\bibrangedash 2051}
+    \field{title}{{Bilby-MCMC: an MCMC sampler for gravitational-wave
+  inference}}
+    \field{volume}{507}
+    \field{journaltitle}{Mon. Not. Roy. Astron. Soc.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{gr-qc}
+    \field{year}{2021}
+  \endentry
+
+  \entry{bilby_paper}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AG}{%
+         family={Ashton},
+         familyi={A\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AG+1}
+    \strng{fullhash}{AG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.3847/1538-4365/ab06fc
+    \endverb
+    \verb{eprint}
+    \verb 1811.02042
+    \endverb
+    \field{number}{2}
+    \field{pages}{27}
+    \field{title}{{BILBY: A user-friendly Bayesian inference library for
+  gravitational-wave astronomy}}
+    \field{volume}{241}
+    \field{journaltitle}{Astrophys. J. Suppl.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.IM}
+    \field{year}{2019}
+  \endentry
+
   \entry{Baade1952}{inbook}{}{}
     \name{author}{1}{}{%
       {{hash=BW}{%
@@ -524,6 +600,137 @@
     \field{year}{1979}
   \endentry
 
+  \entry{becker2013calclens}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=BMR}{%
+         family={Becker},
+         familyi={B\bibinitperiod},
+         given={Matthew\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{BMR1}
+    \strng{fullhash}{BMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{115\bibrangedash 132}
+    \field{title}{CALCLENS: weak lensing simulations for large-area sky surveys
+  and second-order effects in cosmic shear power spectra}
+    \field{volume}{435}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{year}{2013}
+  \endentry
+
+  \entry{behroozi2012rockstar}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=BPS}{%
+         family={Behroozi},
+         familyi={B\bibinitperiod},
+         given={Peter\bibnamedelima S},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WRH}{%
+         family={Wechsler},
+         familyi={W\bibinitperiod},
+         given={Risa\bibnamedelima H},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WHY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Hao-Yi},
+         giveni={H\bibinithyphendelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{BPS+1}
+    \strng{fullhash}{BPSWRHWHY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{2}
+    \field{pages}{109}
+    \field{title}{The rockstar phase-space temporal halo finder and the
+  velocity offsets of cluster cores}
+    \field{volume}{762}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2012}
+  \endentry
+
+  \entry{behroozi2012gravitationally}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=BPS}{%
+         family={Behroozi},
+         familyi={B\bibinitperiod},
+         given={Peter\bibnamedelima S},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WRH}{%
+         family={Wechsler},
+         familyi={W\bibinitperiod},
+         given={Risa\bibnamedelima H},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WHY}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Hao-Yi},
+         giveni={H\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=BMT}{%
+         family={Busha},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima T},
+         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=KAA}{%
+         family={Klypin},
+         familyi={K\bibinitperiod},
+         given={Anatoly\bibnamedelima A},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PJR}{%
+         family={Primack},
+         familyi={P\bibinitperiod},
+         given={Joel\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{BPS+1}
+    \strng{fullhash}{BPSWRHWHYBMTKAAPJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{18}
+    \field{title}{Gravitationally consistent halo catalogs and merger trees for
+  precision cosmology}
+    \field{volume}{763}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2012}
+  \endentry
+
   \entry{cern2025}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=C}{%
@@ -545,6 +752,47 @@
     \endverb
     \field{month}{03}
     \field{year}{2025}
+  \endentry
+
+  \entry{crocce2006transients}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=CM}{%
+         family={Crocce},
+         familyi={C\bibinitperiod},
+         given={Mart{\'\i}n},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pueblas},
+         familyi={P\bibinitperiod},
+         given={Sebasti{\'a}n},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Scoccimarro},
+         familyi={S\bibinitperiod},
+         given={Rom{\'a}n},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Blackwell Publishing Ltd Oxford, UK}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMPSSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{1}
+    \field{pages}{369\bibrangedash 381}
+    \field{title}{Transients from initial conditions in cosmological
+  simulations}
+    \field{volume}{373}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{year}{2006}
   \endentry
 
   \entry{cuceu2019baryon}{article}{}{}
@@ -1083,6 +1331,53 @@
     \field{year}{1929}
   \endentry
 
+  \entry{karathanasis2023gwsim}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=KC}{%
+         family={Karathanasis},
+         familyi={K\bibinitperiod},
+         given={Christos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Revenu},
+         familyi={R\bibinitperiod},
+         given={Beno{\^\i}t},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Suvodip},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Stachurski},
+         familyi={S\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{KC+1}
+    \strng{fullhash}{KCRBMSSF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{pages}{A124}
+    \field{title}{GWSim: Python package for creating mock GW samples for
+  different astrophysical populations and cosmological models of binary black
+  holes}
+    \field{volume}{677}
+    \field{journaltitle}{Astronomy \& Astrophysics}
+    \field{year}{2023}
+  \endentry
+
   \entry{kochanek2001k}{article}{}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -1097,7 +1392,7 @@
     \list{publisher}{1}{%
       {IOP Publishing}%
     }
-    \strng{namehash}{KC+1}
+    \strng{namehash}{KC+2}
     \strng{fullhash}{KC+1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -1563,6 +1858,31 @@
     \field{year}{1982}
   \endentry
 
+  \entry{schmidt1968space}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={Maarten},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1968}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{393}
+    \field{title}{Space distribution and luminosity functions of quasi-stellar
+  radio sources}
+    \field{volume}{151}
+    \field{journaltitle}{Astrophysical Journal, vol. 151, p. 393}
+    \field{year}{1968}
+  \endentry
+
   \entry{schutz1986determining}{article}{}{}
     \name{author}{1}{}{%
       {{hash=SBF}{%
@@ -1590,6 +1910,71 @@
     \field{volume}{323}
     \field{journaltitle}{Nature}
     \field{year}{1986}
+  \endentry
+
+  \entry{DES:2019ccw}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=SSM}{%
+         family={Soares-Santos},
+         familyi={S\bibinithyphendelim S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SSM+1}
+    \strng{fullhash}{SSM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.3847/2041-8213/ab14f1
+    \endverb
+    \verb{eprint}
+    \verb 1901.01540
+    \endverb
+    \field{number}{1}
+    \field{pages}{L7}
+    \field{title}{{First Measurement of the Hubble Constant from a Dark
+  Standard Siren using the Dark Energy Survey Galaxies and the LIGO/Virgo
+  Binary\textendash{}Black-hole Merger GW170814}}
+    \field{volume}{876}
+    \field{journaltitle}{Astrophys. J. Lett.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{astro-ph.CO}
+    \field{year}{2019}
+  \endentry
+
+  \entry{springel2005cosmological}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=SV}{%
+         family={Springel},
+         familyi={S\bibinitperiod},
+         given={Volker},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Royal Astronomical Society}%
+    }
+    \strng{namehash}{SV1}
+    \strng{fullhash}{SV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{4}
+    \field{pages}{1105\bibrangedash 1134}
+    \field{title}{The cosmological simulation code GADGET-2}
+    \field{volume}{364}
+    \field{journaltitle}{Monthly notices of the royal astronomical society}
+    \field{year}{2005}
   \endentry
 
   \entry{strazzullo2006near}{article}{}{}
@@ -1759,6 +2144,47 @@
     \field{year}{2021}
   \endentry
 
+  \entry{takeuchi2000tests}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=TTT}{%
+         family={Takeuchi},
+         familyi={T\bibinitperiod},
+         given={Tsutomu\bibnamedelima T},
+         giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=YK}{%
+         family={Yoshikawa},
+         familyi={Y\bibinitperiod},
+         given={Kohji},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ITT}{%
+         family={Ishii},
+         familyi={I\bibinitperiod},
+         given={Takako\bibnamedelima T},
+         giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{TTT+1}
+    \strng{fullhash}{TTTYKITT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{1}
+    \field{pages}{1}
+    \field{title}{Tests of Statistical Methods for Estimating Galaxy
+  LuminosityFunction and Applications to the Hubble Deep Field}
+    \field{volume}{129}
+    \field{journaltitle}{The Astrophysical Journal Supplement Series}
+    \field{year}{2000}
+  \endentry
+
   \entry{de1972velocity}{inproceedings}{}{}
     \name{author}{1}{}{%
       {{hash=dVG}{%
@@ -1787,6 +2213,89 @@
   nearby groups of galaxies}
     \field{volume}{44}
     \field{year}{1972}
+  \endentry
+
+  \entry{wechsler2022addgals}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=WRH}{%
+         family={Wechsler},
+         familyi={W\bibinitperiod},
+         given={Risa\bibnamedelima H},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={DeRose},
+         familyi={D\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BMT}{%
+         family={Busha},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima T},
+         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=BMR}{%
+         family={Becker},
+         familyi={B\bibinitperiod},
+         given={Matthew\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Rykoff},
+         familyi={R\bibinitperiod},
+         given={Eli},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Evrard},
+         familyi={E\bibinitperiod},
+         given={August},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{WRH+1}
+    \strng{fullhash}{WRHDJBMTBMRREEA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{2}
+    \field{pages}{145}
+    \field{title}{ADDGALS: Simulated sky catalogs for wide field galaxy
+  surveys}
+    \field{volume}{931}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2022}
+  \endentry
+
+  \entry{zwicky1942frequency}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=ZF}{%
+         family={Zwicky},
+         familyi={Z\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+    }
+    \strng{namehash}{ZF1}
+    \strng{fullhash}{ZF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1942}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{pages}{28}
+    \field{title}{On the Frequency of Supernovae. II.}
+    \field{volume}{96}
+    \field{journaltitle}{Astrophysical Journal, vol. 96, p. 28}
+    \field{year}{1942}
   \endentry
 \enddatalist
 \endinput

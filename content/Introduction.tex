@@ -2,25 +2,25 @@
 \label{chap:introduction}
 
 \section{The Hubble Constant}
-The Hubble constant, denoted $H_0$, quantifies the present-day expansion rate of the Universe. The empirical relationship between galaxy redshift and distance was published by Edwin Hubble in 1929~\citep{hubble1929}, showing that galaxies recede from us at velocities proportional to their distances. A few years earlier, Georges Lemaître had independently derived a similar velocity-distance relation in 1927~\citep{lemaitre1927univers}, based on theoretical grounds using general relativity and available data. This linear relation, now known as Hubble's law, is expressed as:
+The Hubble constant, denoted $H_0$, quantifies the present-day expansion rate of the Universe. An empirical relationship between galaxy redshift and distance was published by Edwin Hubble in 1929~\citep{hubble1929}, showing that galaxies recede from us at velocities proportional to their distances. A few years earlier, Georges Lemaître had independently derived a similar velocity-distance relation in 1927~\citep{lemaitre1927univers}, based on theoretical grounds using general relativity and available data. This linear relation, now known as Hubble's law, is expressed as:
 \begin{align}
     v = H_0 d
 \end{align}
-where $v$ is the recession velocity and $d$ is the proper distance to the galaxy. This linear relationship forms the foundation of observational cosmology, and established the expanding Universe as a cornerstone of modern cosmology laying the foundation for the standard cosmological model. 
+where $v$ is the recession velocity and $d$ is the proper distance to the galaxy. This linear relationship forms the foundation of modern observational cosmology, and established the expanding Universe as a cornerstone of modern cosmology laying the foundation for the standard cosmological model. 
 
 
 In modern terms, the Hubble constant also governs the shape of the luminosity distance-redshift relation and determines the age and size of the Universe. In a flat $\Lambda$CDM cosmology, the Hubble constant enters the luminosity distance formula as:
 \begin{align}
     d_L(z) = \frac{c(1+z)}{H_0} \int_0^z \frac{dz'}{\sqrt{\Omega_m(1+z')^3 + \Omega_\Lambda}}.
 \end{align}
-Accurate measurements of $H_0$ are essential for understanding the expansion history of the Universe and for anchoring other cosmological parameters. However, different observational methods have yielded inconsistent values, leading to what is now known as the \textit{Hubble tension}.
+Accurate measurements of $H_0$ are essential for understanding the expansion history of the Universe and for anchoring other cosmological parameters. However, different observational methods have yielded inconsistent values, leading to a discrepancy, what is now known as the \textit{Hubble tension}.
 
 \subsection{Early $H_0$ Measurements}
-The quest to measure the Hubble constant has a long history, beginning with Hubble's original work in the 1920s. The first estimates of $H_0$ were based on the apparent brightness of Cepheid variable stars in nearby galaxies, which were used as standard candles. These early measurements were limited by the available technology and the uncertainties in distance measurements.
+The quest to measure the Hubble constant has a long history, beginning with Hubble's original work in the 1920s. The first estimates of $H_0$ were based on the apparent brightness of Cepheid variable stars in nearby galaxies, which were used as standard candles~\citep{hubble1929}. These early measurements were limited by the available technology and the uncertainties in distance measurements.
 
-In the 1930s, Hubble and Milton Humason measured redshifts and estimated distances to additional galaxies at Mount Wilson Observatory. Their work led to an initial estimate of $H_0 \approx 500~km~s^{-1}~Mpc^{-1}$, significantly higher than current values~\citep{hubble1936realm}. The discrepancy was largely due to underestimating galaxy distances and misidentifying Cepheid populations.
+In the 1930s, Edwin Hubble and Milton Humason measured redshifts and estimated distances to additional galaxies at Mount Wilson Observatory. Their work led to an initial estimate of $H_0 \approx 500~km~s^{-1}~Mpc^{-1}$, significantly higher than current values~\citep{hubble1936realm}. The discrepancy was largely due to underestimating galaxy distances and misidentifying Cepheid populations.
 
-Throughout the 1940s and 1950s, astronomers like Walter Baade and Fritz Zwicky introduced new distance indicators, such as the use of Population I and II stars, and proposed Type Ia supernovae as standard candles~\citep{Baade1952,Baade1944}. Baade's recalibration of Cepheid distances effectively halved Hubble's original value, leading to estimates closer to $H_0 \approx 250~km~s^{-1}~Mpc^{-1}$~\citep{Baade1952,Longair_2006}.
+Throughout the 1940s and 1950s, astronomers like Walter Baade and Fritz Zwicky introduced new distance indicators, such as the use of Population I and II stars, and proposed Type Ia supernovae as standard candles~\citep{Baade1952,Baade1944,zwicky1942frequency}. Baade's recalibration of Cepheid distances effectively halved Hubble's original value, leading to estimates closer to $H_0 \approx 250~km~s^{-1}~Mpc^{-1}$~\citep{Baade1952,Longair_2006}.
 
 Later on, the advent of techniques such as surface brightness fluctuations and the discovery of quasars enabled distance measurements over greater cosmological scales. However, large discrepancies persisted, with estimates of $H_0$ ranging from $50$ to $100~km~s^{-1}~Mpc^{-1}$~\citep{sandage1958current,,de1972velocity,sandage1982steps,de1985tycho}.
 
@@ -80,7 +80,7 @@ Together, these emerging methodologies, TRGB, BAO, and standard sirens, form a t
 
 The amplitude and frequency evolution of the \ac{GW} signal encodes the luminosity distance, which can be inferred under the assumption of general relativity. However, \ac{GW} detectors are not sensitive to the redshift of the source. Therefore, to place a \ac{GW} event on the Hubble diagram and infer the Hubble constant $H_0$, one must independently obtain the redshift.
 
-In the case of bright sirens, events with an \ac{EM} counterpart, such as GW170817~\citep{LIGOScientific:2017adf}, the redshift can be directly measured from the host galaxy spectrum. For the more common class of dark sirens, where no \ac{EM} counterpart is detected, a statistical association is made between the \ac{GW} localization volume and galaxy catalogs. This association yields a redshift probability distribution, which can be combined with the luminosity distance posterior to constrain $H_0$.
+In the case of bright sirens, events with an \ac{EM} counterpart, such as GW170817~\citep{LIGOScientific:2017adf}, the redshift can be directly measured from the host galaxy spectrum. For the more common class of dark sirens, such as GW170814~\citep{DES:2019ccw}, where no \ac{EM} counterpart is detected, a statistical association is made between the \ac{GW} localization volume and galaxy catalogs. This association yields a redshift probability distribution, which can be combined with the luminosity distance posterior to constrain $H_0$.
 
 The promise of standard sirens lies in their independence from traditional distance ladders and \ac{CMB} modeling. This makes them a crucial tool in addressing the Hubble tension. They are free from many astrophysical systematics affecting \ac{EM} methods, such as dust extinction, metallicity effects, or empirical calibrations. Additionally, because \acp{GW} are less susceptible to environmental interactions, they can probe larger cosmological volumes with fewer intermediate assumptions. As \ac{GW} detectors improve in sensitivity and the number of observed events increases, standard sirens are expected to play a progressively larger role in cosmological inference.
 
