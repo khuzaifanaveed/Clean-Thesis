@@ -754,6 +754,47 @@
     \field{year}{2025}
   \endentry
 
+  \entry{chen2024testing}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=CA}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Anson},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Rachel},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Baker},
+         familyi={B\bibinitperiod},
+         given={Tessa},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{CA+1}
+    \strng{fullhash}{CAGRBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{02}
+    \field{pages}{035}
+    \field{title}{Testing the nature of gravitational wave propagation using
+  dark sirens and galaxy catalogues}
+    \field{volume}{2024}
+    \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+    \field{year}{2024}
+  \endentry
+
   \entry{crocce2006transients}{article}{}{}
     \name{author}{3}{}{%
       {{hash=CM}{%
@@ -825,7 +866,7 @@
     \list{publisher}{1}{%
       {IOP Publishing}%
     }
-    \strng{namehash}{CA+1}
+    \strng{namehash}{CA+2}
     \strng{fullhash}{CAFJLPFRA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}

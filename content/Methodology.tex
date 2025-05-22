@@ -111,54 +111,10 @@ While the bright galaxy subsets may not be a perfect representation of the overa
 
 \newpage
 
-\section{The \texttt{gwcosmo} Pipeline}
-Based on the work presented in \cite{gray2020cosmological,gray2022pixelated,gray2023joint}, \texttt{gwcosmo} is a Python package specifically designed for the joint inference of cosmological parameters using data from standard sirens and galaxy catalogs.  The pipeline employs Bayesian inference techniques to simultaneously constrain cosmological parameters, such as the Hubble constant and dark energy equation of state parameters. It does this using various data inputs, including the gravitational wave strain data from gravitational wave observatories such as LIGO, Virgo, and KAGRA, entries from galaxy catalogs containing photometric or spectroscopic redshift information, as well as other relevant galaxy properties, and \ac{CBC} source population models. 
+\section{\Ac{LOS} Redshift Prior}
+%We base our analysis on the \texttt{gwcosmo} pipeline \citep{gray2020cosmological,gray2022pixelated,gray2023joint}, which relies on a precomputed \ac{LOS} redshift prior, a prior on the \ac{GW} signal's redshift and direction. This \ac{LOS} redshift prior is used in tandem with the luminosity distance posterior from the \ac{GW} signal, to get a measurement for the Hubble constant $H_0$.
 
-\texttt{gwcosmo} represents a significant advancement in extracting cosmological information especially from \ac{CBC} events that lack unique \ac{EM} counterparts. It addresses the challenge of redshift inference in dark siren cosmology by statistically marginalizing over potential host galaxies from a flux-limited catalog. This is achieved through hierarchical Bayesian modeling that incorporates \ac{GW} strain data, the spatial and redshift distribution of galaxies, and astrophysical population models.
-
-The pipeline is designed to be flexible and extensible, allowing users to customize the models and priors used in the analysis. It also provides tools for visualizing the results, including posterior distributions and confidence intervals for the inferred parameters. The package is built on top of established libraries such as \texttt{numpy}, \texttt{scipy}, and \texttt{matplotlib}, making it accessible to researchers familiar with these tools.
-The \texttt{gwcosmo} pipeline is a particularly useful tool in the intersection of gravitational wave astronomy and cosmology, as it enables the extraction of valuable cosmological information from gravitational wave events, which can complement traditional methods of measuring cosmological parameters. The package is actively maintained and updated to incorporate new developments in both gravitational wave detection and cosmological modeling, ensuring that it remains a relevant tool for researchers in the field.
-
-\subsection{Bayesian Framework: \textbf{TO BE UPDATED} (see gwcosmo paper)}
-The goal is to evaluate the posterior distribution:
-\begin{equation}
-p(\Lambda \mid \{d_{\text{GW}}\}, \{d_{\text{EM}}\}) \propto p(\Lambda) \, p(\{d_{\text{GW}}\}, \{d_{\text{EM}}\} \mid \Lambda),
-\end{equation}
-where:
-\begin{itemize}
-  \vspace{-1em}
-  \item $\Lambda$ are the hyperparameters of interest (e.g., cosmological parameters, population hyperparameters),
-  \vspace{-1em}
-  \item $d_{\text{GW}}$ are the GW observables (e.g., luminosity distance posteriors),
-  \vspace{-1em}
-  \item $d_{\text{EM}}$ are the galaxy catalogue data (e.g., redshifts, magnitudes, positions).
-\end{itemize}
-
-The likelihood is approximated by marginalizing over all galaxies $k$ within the GW localization volume:
-\begin{equation}
-p(\Lambda \mid \{d_{\text{GW}}\}, \{d_{\text{EM}}\}) \propto \prod_{i} \sum_{k} w_k \, p(d_{\text{GW},i} \mid z_k, \Lambda),
-\end{equation}
-where $w_k$ is the weight assigned to each galaxy, typically modeled based on a proxy for host probability (e.g., luminosity in a selected band, merger rate evolution).
-
-\subsection{Key Features of \texttt{gwcosmo}}
-Some of the key features of the \texttt{gwcosmo} pipeline include:
-\begin{itemize}
-  \item \textbf{Joint Population + Cosmology Inference:} Simultaneously samples over cosmological parameters and population hyperparameters, avoiding bias from fixed population assumptions.
-  \item \textbf{Galaxy Catalogue Weighting:} Utilizes \ac{LOS} redshift priors constructed from galaxy distributions, incorporating completeness corrections based on flux thresholds.
-  \item \textbf{Selection Effects:} Corrects for GW detector sensitivity and incompleteness in galaxy catalogues by modeling detection probabilities and magnitude limits.
-\end{itemize}
-
-\subsection{Implementation and Applications}
-
-The pipeline is implemented in Python and uses \ac{KDE} of \ac{GW} posteriors and efficient catalog summation to handle discrete and incomplete galaxy data. The most recent version was applied by \cite{gray2023joint} to reanalyze 47 events from the \ac{GWTC}-3 catalog using the \texttt{GLADE+} galaxy catalog, yielding an updated measurement of the Hubble constant:
-$$
-H_0 = 69^{+12}_{-7}~\text{km s}^{-1}~\text{Mpc}^{-1}.
-$$
-
-\texttt{gwcosmo} is publicly available and is expected to be a useful tool for future gravitational-wave cosmology with upcoming detector runs and deeper galaxy surveys.
-
-\section{\ac{LOS} Redshift Prior}
-We base our analysis on the \texttt{gwcosmo} pipeline \citep{gray2020cosmological,gray2022pixelated,gray2023joint}, which relies on a precomputed \ac{LOS} redshift prior, a prior on the \ac{GW} signal's redshift and direction. This \ac{LOS} redshift prior is used in tandem with the luminosity distance posterior from the \ac{GW} signal, to get a measurement for the Hubble constant $H_0$.
+As \texttt{gwcosmo} requires a redshift prior for each \ac{GW} event, we construct a \ac{LOS} redshift prior from the \texttt{GLADE+} galaxy catalog. The \texttt{GLADE+} catalog is a comprehensive database of galaxies in the local universe, which provides information about their positions, redshifts, and luminosities. This catalog is used to construct a redshift prior for each \ac{GW} event, which is used in tandem with the luminosity distance posterior from the \ac{GW} signal, to get a measurement for the Hubble constant $H_0$.
 
 \subsection{\ac{LOS} Redshift Prior Construction}
 The \ac{LOS} redshift prior is constructed from the \texttt{GLADE+} galaxy catalog, which contains a wealth of information about the galaxies in the local universe. The redshift prior is constructed by taking into account the distribution of galaxies along the line of sight to the \ac{GW} event, as well as their luminosity and redshift. This allows us to obtain a more accurate estimate for the redshift of the \ac{GW} signal, which is crucial for cosmological measurements. The prior is constructed by dividing the sky into HEALPix pixels, and computing the redshift distribution of galaxies in each pixel. The redshift prior is then weighted using the luminosity of the potential host galaxies, allowing us to obtain a more accurate estimate for the Hubble constant.

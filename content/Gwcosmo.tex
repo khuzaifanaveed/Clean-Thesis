@@ -1,0 +1,110 @@
+\chapter{The \texttt{gwcosmo} Pipeline}
+\label{chap:gwcosmo}
+
+Based on the work presented in \cite{gray2020cosmological,gray2022pixelated,gray2023joint}, \texttt{gwcosmo} is a Python package specifically designed for the joint inference of cosmological parameters using data from standard sirens and galaxy catalogs.  The pipeline employs Bayesian inference techniques to simultaneously constrain cosmological parameters, such as the Hubble constant and dark energy equation of state parameters. It does this using various data inputs, including the gravitational wave strain data from gravitational wave observatories such as LIGO, Virgo, and KAGRA, entries from galaxy catalogs containing photometric or spectroscopic redshift information, as well as other relevant galaxy properties, and \ac{CBC} source population models. 
+
+\texttt{gwcosmo} represents a significant advancement in extracting cosmological information especially from \ac{CBC} events that lack unique \ac{EM} counterparts. It addresses the challenge of redshift inference in dark siren cosmology by statistically marginalizing over potential host galaxies from a flux-limited catalog. This is achieved through hierarchical Bayesian modeling that incorporates \ac{GW} strain data, the spatial and redshift distribution of galaxies, and astrophysical population models.
+
+The pipeline is designed to be flexible and extensible, allowing users to customize the models and priors used in the analysis. It also provides tools for visualizing the results, including posterior distributions and confidence intervals for the inferred parameters. The package is built on top of established libraries such as \texttt{numpy}, \texttt{scipy}, and \texttt{matplotlib}, making it accessible to researchers familiar with these tools.
+The \texttt{gwcosmo} pipeline is a particularly useful tool in the intersection of gravitational wave astronomy and cosmology, as it enables the extraction of valuable cosmological information from gravitational wave events, which can complement traditional methods of measuring cosmological parameters. The package is publicly available and actively maintained and updated to incorporate new developments in both \ac{GW} detection and cosmological modeling, ensuring that it remains a relevant tool for researchers in the field.
+
+%\subsection{Bayesian Framework: \textbf{TO BE UPDATED} (see gwcosmo paper)}
+%The goal is to evaluate the posterior distribution:
+%\begin{equation}
+%p(\Lambda \mid \{d_{\text{GW}}\}, \{d_{\text{EM}}\}) \propto p(\Lambda) \, p(\{d_{\text{GW}}\}, \{d_{\text{EM}}\} \mid \Lambda),
+%\end{equation}
+%where:
+%\begin{itemize}
+%  \vspace{-1em}
+%  \item $\Lambda$ are the hyperparameters of interest (e.g., cosmological parameters, population hyperparameters),
+%  \vspace{-1em}
+%  \item $d_{\text{GW}}$ are the GW observables (e.g., luminosity distance posteriors),
+%  \vspace{-1em}
+%  \item $d_{\text{EM}}$ are the galaxy catalogue data (e.g., redshifts, magnitudes, positions).
+%\end{itemize}
+%
+%The likelihood is approximated by marginalizing over all galaxies $k$ within the GW localization volume:
+%\begin{equation}
+%p(\Lambda \mid \{d_{\text{GW}}\}, \{d_{\text{EM}}\}) \propto \prod_{i} \sum_{k} w_k \, p(d_{\text{GW},i} \mid z_k, \Lambda),
+%\end{equation}
+%where $w_k$ is the weight assigned to each galaxy, typically modeled based on a proxy for host probability (e.g., luminosity in a selected band, merger rate evolution).
+
+\section{Bayesian Framework}
+The \texttt{gwcosmo} package implements a hierarchical Bayesian framework to infer cosmological and astrophysical parameters from \ac{GW} observations, particularly when dealing with dark sirens, \ac{GW} events lacking \ac{EM} counterparts. This framework allows for the consistent incorporation of population models, redshift priors from galaxy catalogs, and detection selection effects~\citep{chen2024testing}.
+
+Given a catalog of $N_{\mathrm{det}}$ detected \ac{GW} events $\{x_\mathrm{GW}\}$, the posterior on the set of hyperparameters $\Lambda$, which may include cosmological parameters (e.g., $H_0$), compact binary population parameters, and parameters of modified gravity, is given by:
+\begin{align}
+    p(\Lambda | \{x_\mathrm{GW}\},\{D_\mathrm{GW}\}, I) \propto p(\Lambda | I)\, p(N_{\mathrm{det}} | \Lambda, I) \prod_{i=1}^{N_{\mathrm{det}}} p(x_{\mathrm{GW},i} | D_{\mathrm{GW},i}, \Lambda, I),
+\end{align}
+where $p(\Lambda | I)$ is the prior on the hyperparameters, and $p(N_{\mathrm{det}} | \Lambda, I)$ encodes the expected number of detections, which depends on the underlying merger rate. The parameter $D_\mathrm{GW}$ represents whether a \ac{GW} event is detected or not, and the parameter $I$ represents any additional assumptions or information used in the analysis, not explicitly contained in $\Lambda$.
+
+The likelihood $p(x_{\mathrm{GW},i} | D_{\mathrm{GW},i}, \Lambda, I)$ is the core of the analysis, as it encodes the information from the \ac{GW} event. It is constructed using a combination of \ac{GW} signal modeling and galaxy catalog data. It can be further decomposed, following \citet{chen2024testing}, into the following components separating the \ac{GW} signal likelihood from the detection probability:
+\begin{align}
+    \prod_{i=1}^{N_{\mathrm{det}}} p(x_{\mathrm{GW},i} | D_{\mathrm{GW},i}, \Lambda, I) \propto & \left[ \prod_i^{N_{\mathrm{det}}} \int p(x_{\mathrm{GW},i} | \theta, \Lambda, I) p(\theta | \Lambda, I) d\theta\right] \\ \nonumber
+    & \times \left[ \int p(D_{\mathrm{GW},i} | \theta, \Lambda, I)p(\theta | \Lambda, I) d\theta \right]^{-N_{\mathrm{det}}}
+\end{align}
+where $\theta$ represents the intrinsic parameters of the \ac{GW} source (e.g., masses, spins), and $p(x_{\mathrm{GW},i} | \theta, \Lambda, I)$ is the likelihood of the \ac{GW} signal given the source parameters and cosmological model. The first term in the product represents the likelihood of the \ac{GW} signal given the source parameters, while the second term accounts for the detection probability of the event.
+
+The likelihood for each event incorporates both \ac{GW} signal modeling and the \acf{LOS} redshift prior derived from galaxy catalogs. For a dark siren event, where the host galaxy is not identified, the sky localization is divided into HEALPix pixels, and a redshift prior is computed per pixel based on the galaxy distribution~\citep{gray2020cosmological,chen2024testing}. The likelihood then integrates over redshift and sky location:
+\begin{align}
+    p(x_{\mathrm{GW,i}} | \theta, \Lambda, I) = \int dz\, \sum_{j}^{N_{\mathrm{pix}}} p(x_{\mathrm{GW,i}} | z, \theta, \Lambda, I)\, p(z | \Omega_j, \Lambda, I),
+\end{align}
+where $p(z | \Omega_j, \Lambda)$ is the LOS redshift prior for pixel $\Omega_j$.
+
+Similarly the detection probability $p(D_{\mathrm{GW},i} |\theta, \Lambda, I)$ is computed by integrating over the same parameters:
+\begin{align}
+    p(D_{\mathrm{GW},i} | \theta, \Lambda, I) = \int dz\, p(D_{\mathrm{GW},i} | z, \theta, \Lambda, I) \sum_{j}^{N_{\mathrm{pix}}} p(z | \Omega_j,\Lambda, I)
+\end{align}
+
+The GW signal provides a measurement of the \textit{luminosity distance}, not redshift. Therefore, cosmology enters through the mapping $d_L(z; \Lambda)$, which can include modifications from non-GR theories. For dark sirens, the redshift must be inferred statistically using host galaxy populations. 
+
+Detection probability and selection effects are corrected using a large set of injections:
+\begin{align}
+    p(D_\mathrm{GW} | \Lambda, I) = \frac{1}{N_{\mathrm{inj}}} \sum_{k=1}^{N_{\mathrm{inj}}} w_k(\Lambda),
+\end{align}
+where $w_k(\Lambda)$ includes cosmological and population weights, accounting for how selection effects bias the observed sample~\citep{chen2024testing, gray2022pixelated}.
+
+An important innovation in \texttt{gwcosmo} is the ability to simultaneously marginalize over population distributions, redshift priors, and selection functions. This modular structure allows consistent updates, for example, incorporating new BBH mass distribution models, or parameterized deviations from GR. Modified gravity effects, if modeled through the GW luminosity distance $d_L^{\mathrm{GW}}(z)$, propagate into the likelihood via the distance-redshift conversion~\citep{chen2024testing}.
+
+To ensure robustness, the package separates posterior contributions into numerators and denominators involving the event likelihood and selection function, respectively. The final likelihood for the entire catalog is given by:
+\begin{align}
+    p(\Lambda | \{x_\mathrm{GW}\}) \propto \frac{\prod_i p(x_{\mathrm{GW},i} | \Lambda)}{[p(D_\mathrm{GW} | \Lambda)]^{N_{\mathrm{det}}}}.
+\end{align}
+
+For bright sirens with identified hosts, the redshift prior is replaced by a Gaussian centered on the spectroscopic redshift. For dark sirens, the galaxy catalog provides a redshift distribution per sky pixel, accounting for photometric redshift uncertainties and catalog incompleteness.
+
+This Bayesian framework enables self-consistent cosmological inference from \ac{GW} data without \ac{EM} counterparts and is central to the analyses carried out in this thesis.
+
+\section{Key Features of \texttt{gwcosmo}}
+Hereby we summarize the key features of the \texttt{gwcosmo} pipeline:
+%Some of the key features of the \texttt{gwcosmo} pipeline include:
+\begin{itemize}
+  \item \textbf{Joint Population and Cosmology Inference:} Simultaneously infers cosmological parameters (e.g., $H_0$, $\Omega_m$) and compact binary population hyperparameters (e.g., mass distribution, merger rate evolution), thereby avoiding biases that arise from fixing one while fitting the other. This fully Bayesian approach accounts for their mutual correlations and degeneracies.
+
+  \item \textbf{Galaxy Catalog-Based Redshift Priors:} Constructs \acf{LOS} redshift priors using spatial and photometric information from galaxy catalogs. These priors account for catalog incompleteness and include weighting schemes based on apparent magnitude or luminosity thresholds to reflect observational selection effects.
+
+  \item \textbf{Selection Effect Corrections:} Accurately models detection efficiencies of \ac{GW} detectors and observational biases in galaxy catalogs. The pipeline incorporates realistic detection probabilities and magnitude-limited selection functions, ensuring that cosmological inference is properly normalized and free from detection-induced biases.
+
+  \item \textbf{Pixelated Sky Localization:} Implements a HEALPix-based discretization of the sky to handle dark sirens. The likelihood is evaluated by marginalizing over redshift and intrinsic parameters for each pixel, weighted by the redshift distribution of galaxies within that pixel.
+
+  \item \textbf{Modular Cosmology Framework:} Supports inference under standard $\Lambda$CDM as well as extensions including $w$CDM, $w_0$--$w_a$CDM, and parameterized modifications of gravity. This enables testing of a broad class of cosmological and gravitational models using \ac{GW} data.
+\end{itemize}
+
+\section{Implementation and Applications}
+
+%The pipeline is implemented in Python and uses \ac{KDE} of \ac{GW} posteriors and efficient catalog summation to handle discrete and incomplete galaxy data. The most recent version was applied by \cite{gray2023joint} to reanalyze 47 events from the \ac{GWTC}-3 catalog using the \texttt{GLADE+} galaxy catalog, yielding an updated measurement of the Hubble constant:
+%$$
+%H_0 = 69^{+12}_{-7}~\text{km s}^{-1}~\text{Mpc}^{-1}.
+%$$
+%
+%\texttt{gwcosmo} is publicly available and is expected to be a useful tool for future gravitational-wave cosmology with upcoming detector runs and deeper galaxy surveys.
+
+The \texttt{gwcosmo} pipeline is implemented in Python and is designed to enable robust Bayesian inference using \ac{GW} data in conjunction with galaxy catalogs. It uses \ac{KDE} of posterior samples from \ac{GW} parameter estimation to build smooth probability distributions in redshift and distance. For dark siren analyses, it performs efficient catalog summation over galaxies within each HEALPix pixel, accounting for photometric redshift uncertainties, magnitude limits, and catalog incompleteness. This approach allows the pipeline to statistically marginalize over possible host galaxies without requiring an electromagnetic counterpart.
+
+The pipeline has been applied in recent analyses to test its cosmological inference capabilities. In particular, \citet{gray2023joint} used \texttt{gwcosmo} to reanalyze 47 \ac{CBC} events from the \ac{GWTC}-3 catalog, combining these with the \texttt{GLADE+} galaxy catalog to perform joint population and cosmology inference. Their analysis yielded the following constraint on the Hubble constant:
+$$
+H_0 = 69^{+12}_{-7}~\text{km s}^{-1}~\text{Mpc}^{-1}
+$$
+This value lies midway between the early-Universe measurement from \textit{Planck} ($H_0 = 67.4 \pm 0.5~km~s^{-1}Mpc^{-1}$)~\citep{Planck:2018vyg} and the local distance-ladder estimate from the \ac{SH0ES} project ($H_0 = 73.30 \pm 1.04~km~s^{-1}Mpc^{-1}$)~\citep{riess2022comprehensive}. While the uncertainty remains large due to the limited number of dark siren events and the incompleteness of the galaxy catalog, this result demonstrates the power of standard siren cosmology as an independent probe of the expansion rate.
+
+As the catalog of detected \ac{GW} events grows in future observing runs, and galaxy surveys become deeper and more complete, the precision of dark siren measurements is expected to improve significantly. The modular design of \texttt{gwcosmo} makes it readily adaptable to incorporate new detector sensitivities, cosmological models, or improved photometric redshift techniques, positioning it as a key tool in the effort to resolve the Hubble tension through \ac{GW} observations.
