@@ -17,6 +17,91 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global/global}
+  \entry{Abac:ET}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=AA}{%
+         family={Abac},
+         familyi={A\bibinitperiod},
+         given={Adrian},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Abramo},
+         familyi={A\bibinitperiod},
+         given={Raul},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Albanesi},
+         familyi={A\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Albertini},
+         familyi={A\bibinitperiod},
+         given={Angelica},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Agapito},
+         familyi={A\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Agathos},
+         familyi={A\bibinitperiod},
+         given={Michalis},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Albertus},
+         familyi={A\bibinitperiod},
+         given={Conrado},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Andersson},
+         familyi={A\bibinitperiod},
+         given={Nils},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Andrade},
+         familyi={A\bibinitperiod},
+         given={Tom{\'a}s},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Andreoni},
+         familyi={A\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AA+1}
+    \strng{fullhash}{AAARASAAAAAMACANATAI+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb https://doi.org/10.48550/arXiv.2503.01226
+    \endverb
+    \verb{eprint}
+    \verb 2503.1226
+    \endverb
+    \field{title}{The science of the Einstein telescope}
+    \field{journaltitle}{arXiv e-print, arXiv:2503.1226}
+    \field{eprinttype}{arXiv}
+    \field{year}{2025}
+  \endentry
+
   \entry{LIGOScientific:2017adf}{article}{}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -321,6 +406,73 @@
     \field{volume}{13}
     \field{journaltitle}{Physical Review X}
     \field{year}{2023}
+  \endentry
+
+  \entry{abbott2023gwtc}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AR}{%
+         family={Abbott},
+         familyi={A\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{AR+3}
+    \strng{fullhash}{AR+3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{extradate}{3}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{4}
+    \field{pages}{041039}
+    \field{title}{GWTC-3: Compact binary coalescences observed by LIGO and
+  Virgo during the second part of the third observing run}
+    \field{volume}{13}
+    \field{journaltitle}{Physical Review X}
+    \field{year}{2023}
+  \endentry
+
+  \entry{afroz2024prospect}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=AS}{%
+         family={Afroz},
+         familyi={A\bibinitperiod},
+         given={Samsuzzaman},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mukherjee},
+         familyi={M\bibinitperiod},
+         given={Suvodip},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{ASMS1}
+    \strng{fullhash}{ASMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{2}
+    \field{pages}{1283\bibrangedash 1298}
+    \field{title}{Prospect of precision cosmology and testing general
+  relativity using binary black holes--galaxies cross-correlation}
+    \field{volume}{534}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{year}{2024}
   \endentry
 
   \entry{Planck:2018vyg}{article}{}{}
@@ -731,6 +883,144 @@
     \field{year}{2012}
   \endentry
 
+  \entry{bilicki2013two}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=BM}{%
+         family={Bilicki},
+         familyi={B\bibinitperiod},
+         given={Maciej},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JTH}{%
+         family={Jarrett},
+         familyi={J\bibinitperiod},
+         given={Thomas\bibnamedelima H},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=PJA}{%
+         family={Peacock},
+         familyi={P\bibinitperiod},
+         given={John\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CME}{%
+         family={Cluver},
+         familyi={C\bibinitperiod},
+         given={Michelle\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Steward},
+         familyi={S\bibinitperiod},
+         given={Louise},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BMJTHPJACMESL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{9}
+    \field{title}{Two micron all sky survey photometric redshift catalog: A
+  comprehensive three-dimensional census of the whole sky}
+    \field{volume}{210}
+    \field{journaltitle}{The Astrophysical Journal Supplement Series}
+    \field{year}{2013}
+  \endentry
+
+  \entry{bilicki2016wise}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=BM}{%
+         family={Bilicki},
+         familyi={B\bibinitperiod},
+         given={Maciej},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PJA}{%
+         family={Peacock},
+         familyi={P\bibinitperiod},
+         given={John\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=JTH}{%
+         family={Jarrett},
+         familyi={J\bibinitperiod},
+         given={Thomas\bibnamedelima H},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CME}{%
+         family={Cluver},
+         familyi={C\bibinitperiod},
+         given={Michelle\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Maddox},
+         familyi={M\bibinitperiod},
+         given={Natasha},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BMJ}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima JI},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=TEN}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Edward\bibnamedelima N},
+         giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=HNC}{%
+         family={Hambly},
+         familyi={H\bibinitperiod},
+         given={Nigel\bibnamedelima C},
+         giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Solarz},
+         familyi={S\bibinitperiod},
+         given={Aleksandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HBW}{%
+         family={Holwerda},
+         familyi={H\bibinitperiod},
+         given={Benne\bibnamedelima W},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BMPJAJTHCMEMNBMJTENHNCSAHBW+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{5}
+    \field{title}{WISE$\times$ SuperCOSMOS photometric redshift catalog: 20
+  million galaxies over 3$\pi$ steradians}
+    \field{volume}{225}
+    \field{journaltitle}{The Astrophysical Journal Supplement Series}
+    \field{year}{2016}
+  \endentry
+
   \entry{cern2025}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=C}{%
@@ -795,6 +1085,94 @@
     \field{year}{2024}
   \endentry
 
+  \entry{LISA:2024hlh}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=CM}{%
+         family={Colpi},
+         familyi={C\bibinitperiod},
+         given={Monica},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={Danzmann},
+         familyi={D\bibinitperiod},
+         given={Karsten},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hewitson},
+         familyi={H\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HBK}{%
+         family={Holley-Bockelmann},
+         familyi={H\bibinithyphendelim B\bibinitperiod},
+         given={Kelly},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=JP}{%
+         family={Jetzer},
+         familyi={J\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NG}{%
+         family={Nelemans},
+         familyi={N\bibinitperiod},
+         given={Gijs},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Petiteau},
+         familyi={P\bibinitperiod},
+         given={Antoine},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Shoemaker},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sopuerta},
+         familyi={S\bibinitperiod},
+         given={Carlos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Stebbins},
+         familyi={S\bibinitperiod},
+         given={Robin},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Technical report. Feb. 12}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMDKHMHBKJPNGPASDSCSR+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb https://doi.org/10.48550/arXiv.2402.07571
+    \endverb
+    \verb{eprint}
+    \verb 2402.07571
+    \endverb
+    \field{title}{{LISA definition study report}}
+    \field{journaltitle}{arXiv e-print, arXiv:2402.07571}
+    \field{eprinttype}{arXiv}
+    \field{year}{2024}
+  \endentry
+
   \entry{crocce2006transients}{article}{}{}
     \name{author}{3}{}{%
       {{hash=CM}{%
@@ -819,7 +1197,7 @@
     \list{publisher}{1}{%
       {Blackwell Publishing Ltd Oxford, UK}%
     }
-    \strng{namehash}{CM+1}
+    \strng{namehash}{CM+2}
     \strng{fullhash}{CMPSSR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -881,6 +1259,85 @@
     \field{volume}{2019}
     \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
     \field{year}{2019}
+  \endentry
+
+  \entry{dalya2018glade}{article}{}{}
+    \name{author}{9}{}{%
+      {{hash=DG}{%
+         family={D{\'a}lya},
+         familyi={D\bibinitperiod},
+         given={Gergely},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Galg{\'o}czi},
+         familyi={G\bibinitperiod},
+         given={G{\'a}bor},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Dobos},
+         familyi={D\bibinitperiod},
+         given={L{\'a}szl{\'o}},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FZ}{%
+         family={Frei},
+         familyi={F\bibinitperiod},
+         given={Zsolt},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=HIS}{%
+         family={Heng},
+         familyi={H\bibinitperiod},
+         given={Ik\bibnamedelima Siong},
+         giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Macas},
+         familyi={M\bibinitperiod},
+         given={Ronaldas},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Messenger},
+         familyi={M\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Raffai},
+         familyi={R\bibinitperiod},
+         given={P{\'e}ter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=dSRS}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Souza},
+         familyi={S\bibinitperiod},
+         given={Rafael\bibnamedelima S},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{DG+1}
+    \strng{fullhash}{DGGGDLFZHISMRMCRPSRSd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{2}
+    \field{pages}{2374\bibrangedash 2381}
+    \field{title}{GLADE: A galaxy catalogue for multimessenger searches in the
+  advanced gravitational-wave detector era}
+    \field{volume}{479}
+    \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+    \field{year}{2018}
   \endentry
 
   \entry{dalya2022glade+}{article}{}{}
@@ -1003,6 +1460,92 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{astro-ph.CO}
     \field{year}{2022}
+  \endentry
+
+  \entry{Evans:CE}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=EM}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ARX}{%
+         family={Adhikari},
+         familyi={A\bibinitperiod},
+         given={Rana\bibnamedelima X},
+         giveni={R\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Afle},
+         familyi={A\bibinitperiod},
+         given={Chaitanya},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BSW}{%
+         family={Ballmer},
+         familyi={B\bibinitperiod},
+         given={Stefan\bibnamedelima W},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Biscoveanu},
+         familyi={B\bibinitperiod},
+         given={Sylvia},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Borhanian},
+         familyi={B\bibinitperiod},
+         given={Ssohrab},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BDA}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Duncan\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yanbei},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ER}{%
+         family={Eisenstein},
+         familyi={E\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gruson},
+         familyi={G\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EM+1}
+    \strng{fullhash}{EMARXACBSWBSBSBDACYERGA+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb https://doi.org/10.48550/arXiv.2109.09882
+    \endverb
+    \verb{eprint}
+    \verb 2109.09882
+    \endverb
+    \field{title}{A horizon study for cosmic explorer: science, observatories,
+  and community}
+    \field{journaltitle}{arXiv e-print, arXiv:2109.09882}
+    \field{eprinttype}{arXiv}
+    \field{year}{2021}
   \endentry
 
   \entry{ezquiaga2022spectral}{article}{}{}
@@ -1372,6 +1915,135 @@
     \field{year}{1929}
   \endentry
 
+  \entry{ivezic2019lsst}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=IZ}{%
+         family={Ivezi{\'c}},
+         familyi={I\bibinitperiod},
+         given={{\v{Z}}eljko},
+         giveni={{\v{Z}}\bibinitperiod},
+      }}%
+      {{hash=KSM}{%
+         family={Kahn},
+         familyi={K\bibinitperiod},
+         given={Steven\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TJA}{%
+         family={Tyson},
+         familyi={T\bibinitperiod},
+         given={J\bibnamedelima Anthony},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Abel},
+         familyi={A\bibinitperiod},
+         given={Bob},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AE}{%
+         family={Acosta},
+         familyi={A\bibinitperiod},
+         given={Emily},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Allsman},
+         familyi={A\bibinitperiod},
+         given={Robyn},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Alonso},
+         familyi={A\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AY}{%
+         family={AlSayyad},
+         familyi={A\bibinitperiod},
+         given={Yusra},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ASF}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Scott\bibnamedelima F},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Andrew},
+         familyi={A\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{IZ+1}
+    \strng{fullhash}{IZKSMTJAABAEARADAYASFAJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{number}{2}
+    \field{pages}{111}
+    \field{title}{LSST: from science drivers to reference design and
+  anticipated data products}
+    \field{volume}{873}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2019}
+  \endentry
+
+  \entry{annurev:tension}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Kamionkowski},
+         familyi={K\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RAG}{%
+         family={Riess},
+         familyi={R\bibinitperiod},
+         given={Adam\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Annual Reviews}%
+    }
+    \keyw{cosmology}
+    \strng{namehash}{KMRAG1}
+    \strng{fullhash}{KMRAG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb https://doi.org/10.1146/annurev-nucl-111422-024107
+    \endverb
+    \field{issn}{1545-4134}
+    \field{number}{Volume 73, 2023}
+    \field{pages}{153\bibrangedash 180}
+    \field{title}{The Hubble Tension and Early Dark Energy}
+    \verb{url}
+    \verb https://www.annualreviews.org/content/journals/10.1146/annurev-nucl-1
+    \verb 11422-024107
+    \endverb
+    \field{volume}{73}
+    \field{type}{Journal Article}
+    \field{journaltitle}{Annual Review of Nuclear and Particle Science}
+    \field{year}{2023}
+  \endentry
+
   \entry{karathanasis2023gwsim}{article}{}{}
     \name{author}{4}{}{%
       {{hash=KC}{%
@@ -1555,6 +2227,92 @@
     \field{year}{2006}
   \endentry
 
+  \entry{lyke2020sloan}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=LBW}{%
+         family={Lyke},
+         familyi={L\bibinitperiod},
+         given={Brad\bibnamedelima W},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HAN}{%
+         family={Higley},
+         familyi={H\bibinitperiod},
+         given={Alexandra\bibnamedelima N},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={McLane},
+         familyi={M\bibinitperiod},
+         given={JN},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SDP}{%
+         family={Schurhammer},
+         familyi={S\bibinitperiod},
+         given={Danielle\bibnamedelima P},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MAD}{%
+         family={Myers},
+         familyi={M\bibinitperiod},
+         given={Adam\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Ross},
+         familyi={R\bibinitperiod},
+         given={Ashley\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={Dawson},
+         familyi={D\bibinitperiod},
+         given={Kyle},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chabanier},
+         familyi={C\bibinitperiod},
+         given={Solene},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Martini},
+         familyi={M\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DBHDM}{%
+         family={Des\bibnamedelima Bourboux},
+         familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Helion Du\bibnamedelima Mas},
+         giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{LBW+1}
+    \strng{fullhash}{LBWHANMJSDPMADRAJDKCSMPDBHDM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{1}
+    \field{pages}{8}
+    \field{title}{The sloan digital sky survey quasar catalog: Sixteenth data
+  release}
+    \field{volume}{250}
+    \field{journaltitle}{The Astrophysical Journal Supplement Series}
+    \field{year}{2020}
+  \endentry
+
   \entry{madau2014cosmic}{article}{}{}
     \name{author}{2}{}{%
       {{hash=MP}{%
@@ -1638,6 +2396,57 @@
     \field{year}{2007}
   \endentry
 
+  \entry{makarov2014hyperleda}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=MD}{%
+         family={Makarov},
+         familyi={M\bibinitperiod},
+         given={Dmitry},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Prugniel},
+         familyi={P\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Terekhova},
+         familyi={T\bibinitperiod},
+         given={Nataliya},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Courtois},
+         familyi={C\bibinitperiod},
+         given={H{\'e}l{\`e}ne},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=VI}{%
+         family={Vauglin},
+         familyi={V\bibinitperiod},
+         given={Isabelle},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{MD+1}
+    \strng{fullhash}{MDPPTNCHVI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{A13}
+    \field{title}{HyperLEDA. III. The catalogue of extragalactic distances}
+    \field{volume}{570}
+    \field{journaltitle}{Astronomy \& Astrophysics}
+    \field{year}{2014}
+  \endentry
+
   \entry{mastrogiovanni2021importance}{article}{}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -1699,6 +2508,204 @@
     \field{year}{2024}
   \endentry
 
+  \entry{mellier2024euclid}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=MY}{%
+         family={Mellier},
+         familyi={M\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+      {{hash=AA}{%
+         family={Abdurro{\'u}f},
+         familyi={A\bibinitperiod},
+         given={Abdurro{\'u}f},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJA}{%
+         family={Barroso},
+         familyi={B\bibinitperiod},
+         given={JA\bibnamedelima Acevedo},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Ach{\'u}carro},
+         familyi={A\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=AJ}{%
+         family={Adamek},
+         familyi={A\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=AR}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=AG}{%
+         family={Addison},
+         familyi={A\bibinitperiod},
+         given={GE},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Aghanim},
+         familyi={A\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=AM}{%
+         family={Aguena},
+         familyi={A\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=AV}{%
+         family={Ajani},
+         familyi={A\bibinitperiod},
+         given={V},
+         giveni={V},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{MY+1}
+    \strng{fullhash}{MYAABJAAAAJARAGANAMAV+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Euclid. I. Overview of the Euclid mission}
+    \field{journaltitle}{Astronomy \& Astrophysics}
+    \field{year}{2024}
+  \endentry
+
+  \entry{naveed2025dark}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=NK}{%
+         family={Naveed},
+         familyi={N\bibinitperiod},
+         given={Khuzaifa},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Turski},
+         familyi={T\bibinitperiod},
+         given={Cezary},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Ghosh},
+         familyi={G\bibinitperiod},
+         given={Archisman},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NK+1}
+    \strng{fullhash}{NKTCGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Dark standard siren cosmology with bright galaxy subsets}
+    \field{journaltitle}{arXiv preprint arXiv:2505.11268}
+    \field{year}{2025}
+  \endentry
+
+  \entry{riess2024jwst}{article}{}{}
+    \name{author}{10}{}{%
+      {{hash=RAG}{%
+         family={Riess},
+         familyi={R\bibinitperiod},
+         given={Adam\bibnamedelima G},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=AGS}{%
+         family={Anand},
+         familyi={A\bibinitperiod},
+         given={Gagandeep\bibnamedelima S},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=YW}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Wenlong},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Casertano},
+         familyi={C\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dolphin},
+         familyi={D\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MLM}{%
+         family={Macri},
+         familyi={M\bibinitperiod},
+         given={Lucas\bibnamedelima M},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Breuval},
+         familyi={B\bibinitperiod},
+         given={Louise},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Scolnic},
+         familyi={S\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Perrin},
+         familyi={P\bibinitperiod},
+         given={Marshall},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ARI}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Richard\bibnamedelima I},
+         giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{RAG+1}
+    \strng{fullhash}{RAGAGSYWCSDAMLMBLSDPMARI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{1}
+    \field{pages}{L17}
+    \field{title}{JWST observations reject unrecognized crowding of cepheid
+  photometry as an explanation for the hubble tension at 8$\sigma$ confidence}
+    \field{volume}{962}
+    \field{journaltitle}{The Astrophysical Journal Letters}
+    \field{year}{2024}
+  \endentry
+
   \entry{Riess:2019cxk}{article}{}{}
     \name{author}{5}{}{%
       {{hash=RAG}{%
@@ -1732,7 +2739,7 @@
          giveni={D\bibinitperiod},
       }}%
     }
-    \strng{namehash}{RAG+1}
+    \strng{namehash}{RAG+2}
     \strng{fullhash}{RAGCSYWMLMSD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -1826,7 +2833,7 @@
     \list{publisher}{1}{%
       {IOP Publishing}%
     }
-    \strng{namehash}{RAG+2}
+    \strng{namehash}{RAG+3}
     \strng{fullhash}{RAGYWMLMSDBDCSJDOMYAGSBL+1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -1951,6 +2958,90 @@
     \field{volume}{323}
     \field{journaltitle}{Nature}
     \field{year}{1986}
+  \endentry
+
+  \entry{skrutskie2006two}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=SMF}{%
+         family={Skrutskie},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima F},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Cutri},
+         familyi={C\bibinitperiod},
+         given={RM},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Stiening},
+         familyi={S\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=WM}{%
+         family={Weinberg},
+         familyi={W\bibinitperiod},
+         given={MD},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schneider},
+         familyi={S\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=CJ}{%
+         family={Carpenter},
+         familyi={C\bibinitperiod},
+         given={JM},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Beichman},
+         familyi={B\bibinitperiod},
+         given={Capps},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Capps},
+         familyi={C\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=CT}{%
+         family={Chester},
+         familyi={C\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=EJ}{%
+         family={Elias},
+         familyi={E\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{SMF+1}
+    \strng{fullhash}{SMFCRSRWMSSCJBCCRCTEJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{2}
+    \field{pages}{1163}
+    \field{title}{The two micron all sky survey (2MASS)}
+    \field{volume}{131}
+    \field{journaltitle}{The Astronomical Journal}
+    \field{year}{2006}
   \endentry
 
   \entry{DES:2019ccw}{article}{}{}

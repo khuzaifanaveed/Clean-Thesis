@@ -1,2 +1,56 @@
 \chapter{Conclusion}
 \label{chap:conclusion}
+
+The emergence of \ac{GW} astronomy has opened a new frontier in observational cosmology. This thesis has explored the potential of using dark sirens, gravitational-wave events without electromagnetic counterparts, for the inference of the Hubble constant, $H_0$. Specifically, we examined whether refining the galaxy catalog used in the redshift prior, by restricting it to its brightest subsets, can improve the cosmological constraints from these events.
+
+\section{Summary of Findings}
+
+We implemented a hierarchical Bayesian inference framework using the \texttt{gwcosmo} pipeline, which combines \ac{GW} luminosity distance posteriors with redshift priors constructed from galaxy catalogs. The galaxy redshift prior was derived using the \texttt{GLADE+} catalog and modified by applying brightness cuts to prioritize the most luminous galaxies in the $K$-band. These subsets, denoted \texttt{GLADEPXX}, were hypothesized to trace large-scale structure more efficiently due to their association with massive halos.
+
+The analysis demonstrated that:
+\vspace{-1em}
+\begin{itemize}
+    \item Brightness-ranked catalogs improve the redshift prior, leading to tighter posteriors on $H_0$ by reducing low-likelihood host candidates in the \ac{GW} localization volume.
+    \vspace{-1em}
+    \item Moderate pruning yields improvement in $H_0$ precision as compared to using the full catalog, without introducing measurable bias. This improvement is attributed to the enhanced clustering signal from retaining mostly central, high-luminosity galaxies.
+    \vspace{-1em}
+    \item Aggressive pruning (e.g., \texttt{GLADEP10}) results in degraded constraints and larger uncertainties, as the catalog no longer adequately traces the large-scale structure.
+    \vspace{-1em}
+    \item A lower bound of approximately 30\% of the brightest galaxies emerges as a practical pruning limit, in the best-case scenario where the brightest galaxies are strictly the central-most galaxies. Below this threshold, significant information about the underlying matter distribution is lost, particularly from central galaxies, increasing the risk of cosmological bias.
+    \vspace{-1em}
+    \item Simulated mock challenges using the \texttt{BUZZARD} catalog support the robustness of the brightness-based pruning strategy but also emphasize the importance of catalog completeness, redshift depth, and optimal percentile thresholds. The 30\% structural limit appears consistent across magnitude cuts, suggesting that future work should avoid overly aggressive pruning or instead develop hybrid approaches combining full and pruned catalogs.
+\end{itemize}
+
+\section{Limitations}
+
+This work, while comprehensive, has several limitations:
+\vspace{-1em}
+\begin{itemize}
+    \item The number of \ac{GW} events with high \ac{SNR} and good localization remains small, limiting the statistical power of our results.
+    \vspace{-1em}
+    \item Catalog incompleteness, particularly at high redshifts, introduces uncertainties that are only partially mitigated by brightness cuts.
+    \vspace{-1em}
+    \item Due to time constraints and several technical challenges encountered with the \texttt{BUZZARD} mock catalog, we were unable to perform a full end-to-end bias quantification from pruning dim galaxies. Nevertheless, partial analyses and theoretical considerations support the proposed 30\% threshold as a conservative lower bound.
+    \vspace{-1em}
+    \item While a complete end-to-end \acf{MDC} framework has been developed, a few components still require minor refinements and consistency checks before full deployment in future analyses.
+    %\vspace{-1em}
+    %\item The analysis assumes a fixed $\Lambda$CDM cosmology throughout, exploring extended models may reveal different degeneracies or sensitivities in dark siren inference.
+\end{itemize}
+
+\section{Outlook and Future Work}
+
+The outlook for dark siren cosmology is highly promising. With the advent of next-generation \ac{GW} detectors such as Cosmic Explorer~\citep{Evans:CE}, Einstein Telescope~\citep{Abac:ET} and LISA~\citep{LISA:2024hlh}, and deeper galaxy surveys (e.g., LSST~\citep{ivezic2019lsst}, Euclid~\citep{mellier2024euclid}), both the number of detected events and the completeness of host catalogs are expected to improve significantly.
+
+Future extensions of this work could include:
+\vspace{-1em}
+\begin{itemize}
+    \item Get a quantitative estimate of the bias introduced by the brightness cuts, with the devised end-to-end \ac{MDC} framework.
+    \vspace{-1em}
+    \item Testing for potential biases introduced by brightness cuts using larger and more realistic mock datasets.
+    \vspace{-1em}
+    \item Developing adaptive redshift priors that vary with localization volume depth, combining full catalogs at low redshift with bright subsets at high redshift.
+    \vspace{-1em}
+    \item Integrating clustering information or cross-correlations with large-scale structure to improve redshift inference~\citep{afroz2024prospect}.
+\end{itemize}
+
+Ultimately, the resolution of the Hubble tension will require a convergence of multiple independent probes. As shown in this thesis, dark sirens, when carefully analyzed, offer a robust and independent route to measuring $H_0$. Furthermore, the use of bright galaxies as tracers of large-scale structure provides a promising avenue for improving the precision of cosmological constraints from \ac{GW} observations. This methodology will play a growing role in the era of multi-messenger cosmology.
