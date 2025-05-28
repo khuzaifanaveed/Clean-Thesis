@@ -44,11 +44,7 @@ For our analysis we assume that \acp{CBC} follow a Madau-Dickinson merger redshi
 \end{align}
 Here $R_0$ is the local merger rate, $\kappa$ the high-z slope, $\gamma$ the low-z slop and $z_p$ the break-point. All the assumed priors, taken from \citet{abbott2023gwtc}, are given in Table \ref{tab:Madau}.
 
-For \ac{BBH} we use power-law with a Gaussian peak mass model, with powerlaw slope $\alpha$, the mean of the Gaussian $\sigma_g$, the width 
-of the peak $\mu_g$, and the relative weight between power-law and
-the peak $\lambda_g$. We also assume the minimum and maximum masses for the black hole distribution. For neutron stars we assume that
-mass is uniformly distributed between $M_{min,NS}$ and
-$M_{max,NS}$. All the assumed priors, taken from \citet{abbott2023gwtc}, are given in Table \ref{tab:mass_dist}.
+For \ac{BBH} we use power-law with a Gaussian peak mass model, with powerlaw slope $\alpha$, the mean of the Gaussian $\sigma_g$, the width of the peak $\mu_g$, and the relative weight between power-law and the peak $\lambda_g$. We also assume the minimum and maximum masses for the black hole distribution. For neutron stars we assume that mass is uniformly distributed between $M_{min,\mathrm{NS}}$ and $M_{max,\mathrm{NS}}$. All the assumed priors, taken from \citet{abbott2023gwtc}, are given in Table \ref{tab:mass_dist}.
 
 \begin{table}[h!]
     \small
@@ -80,10 +76,10 @@ $M_{max,NS}$. All the assumed priors, taken from \citet{abbott2023gwtc}, are giv
          $\sigma_g$ & $3.88$ \\
          $\mu_g$ & $32.27$ \\
          $\lambda_g$ & $0.03$ \\
-         $M_{min,BH}$ & $4.98M_{\odot}$ \\
-         $M_{max,BH}$ & $112.5M_{\odot}$ \\
-         $M_{min, NS}$ & $1.0M_{\odot}$ \\
-         $M_{max, NS}$ & $3.0M_{\odot}$ \\
+         $M_{min,\mathrm{BH}}$ & $4.98M_{\odot}$ \\
+         $M_{max,\mathrm{BH}}$ & $112.5M_{\odot}$ \\
+         $M_{min,\mathrm{NS}}$ & $1.0M_{\odot}$ \\
+         $M_{max,\mathrm{NS}}$ & $3.0M_{\odot}$ \\
          \hline
     \end{tabular}
 \end{table}
@@ -113,11 +109,11 @@ As of the latest release, \texttt{GLADE+} includes over 22 million objects with 
 
 A significant limitation of \texttt{GLADE+} is its incompleteness beyond redshift $z \sim 0.3$. While the catalog is approximately complete for bright galaxies at low redshift, its coverage of fainter galaxies or more distant regions is limited. This incompleteness introduces a bias when performing statistical redshift inference, as missing galaxies contribute to the out-of-catalog part of the redshift prior.
 
-To address this, the \texttt{gwcosmo} pipeline models the galaxy population, for the out-of-catalog region, using a truncated Schechter luminosity function:
+To address this, the \texttt{gwcosmo} pipeline models the galaxy population, for the out-of-catalog region, using a truncated Schechter luminosity function~\citep{schechter1976analytic} in the $K$-band. The Schechter function describes the distribution of galaxy luminosities and is given by:
 \begin{align}
     \phi(M) \propto 10^{0.4(\alpha + 1)(M - M^*)} \exp[-10^{0.4(M - M^*)}]
 \end{align}
-where \( M \) is the absolute magnitude in the $K$-band, $M^*$ is the characteristic magnitude, and $\alpha$ is the faint-end slope. For our analysis, we adopt the standard parameters: $\alpha = -1.09$, $M^*_K = -23.39 + 5\log h$, consistent with \citet{kochanek2001k}, and truncate at $M^*_{K,min} = -27.00 + 5\log h$ and $M^*_{K,max} = -19.00 + 5\log h$.
+where \( M \) is the absolute magnitude in the $K$-band, $M^*$ is the characteristic magnitude, and $\alpha$ is the faint-end slope. For our analysis, we adopt the standard parameters: $\alpha = -1.09$, $M^*_{K} = -23.39 + 5\log h$, consistent with \citet{kochanek2001k}, and truncate at $M^*_{K,\mathrm{min}} = -27.00 + 5\log h$ and $M^*_{K,\mathrm{max}} = -19.00 + 5\log h$.
 
 \subsection{Redshift Uncertainty Modeling}
 
@@ -125,7 +121,7 @@ Redshift measurements in \texttt{GLADE+} are heterogeneous. Spectroscopic redshi
 
 Additionally, to reduce systematic error, galaxies with unphysical redshifts or unreliable photometry are filtered out during preprocessing. The net result is a cleaned, sky-localized, and redshift-tagged galaxy distribution that can be used for \ac{LOS} prior construction.
 
-Furthermore, $K$-corrections are applied in \texttt{gwcosmo} following \citet{kochanek2001k}, and the apparent magnitude thresholds $m_{thr}$ are computed per HEALPix pixel as a median apparent magnitude in a given pixel, giving a $K$-band threshold of 13.5 on average.
+Furthermore, $K$-corrections are applied in \texttt{gwcosmo} following \citet{kochanek2001k}, and the apparent magnitude thresholds $m_{\mathrm{thr}}$ are computed per HEALPix pixel as a median apparent magnitude in a given pixel, giving a $K$-band threshold of 13.5 on average.
 
 \subsection{$K$-band Luminosity as Host Probability Proxy}
 

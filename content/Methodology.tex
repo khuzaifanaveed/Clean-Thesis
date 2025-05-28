@@ -19,14 +19,14 @@ The analysis begins with the construction of \textbf{bright galaxy subsets}, den
   \item Minimize the inclusion of poorly characterized or faint galaxies.
 \end{itemize}
 
-The bright galaxy subsets are defined by selecting galaxies based on their absolute magnitude, which is inferred from their redshift and apparent magnitude. For a given subset, the dimmest galaxy sets the absolute magnitude limit, $M_{max}$, for that subset. This limit is then used in the Schechter luminosity function to adjust the out-of-catalog contribution, effectively reducing its impact. By focusing on the brightest galaxies, we assume that they trace the mass distribution in the Universe more effectively, and are more likely to host \ac{CBC} events.
+The bright galaxy subsets are defined by selecting galaxies based on their absolute magnitude, which is inferred from their redshift and apparent magnitude. For a given subset, the dimmest galaxy sets the absolute magnitude limit, $M_{\mathrm{max}}$, for that subset. This limit is then used in the Schechter luminosity function to adjust the out-of-catalog contribution, effectively reducing its impact. By focusing on the brightest galaxies, we assume that they trace the mass distribution in the Universe more effectively, and are more likely to host \ac{CBC} events.
 
 This approach improves the completeness of the galaxy catalog in the high-redshift regime, as the out-of-catalog contribution becomes smaller. Figure~\ref{fig:z_dist} illustrates how the redshift distribution shift towards higher values making the catalog more complete, highlighting the effectiveness of this method in probing deeper $z$--ranges.
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.7\linewidth]{figures/z_dist_perc.png}
-  \caption[Normalized redshift distributions $p(z)$ for the \texttt{GLADE+} galaxy catalogue and the brightest percentiles.]{Normalized redshift distributions $p(z)$ for the full \texttt{GLADE+} galaxy catalogue (blue) and the brightest percentiles (other curves). Each subset, labeled \texttt{GLADEPXX}, includes only the top XX\% brightest galaxies in the $K$-band. Focusing on increasingly brighter subsets shifts and sharpens the redshift distribution, effectively probing deeper ranges in $z$.}
+  \caption[Normalized redshift distributions $p(z)$ for the \texttt{GLADE+} galaxy catalogue and its brightest percentiles.]{Normalized redshift distributions $p(z)$ for the full \texttt{GLADE+} galaxy catalogue (blue) and the brightest percentiles (other curves). Each subset, labeled \texttt{GLADEPXX}, includes only the top XX\% brightest galaxies in the $K$-band. Focusing on increasingly brighter subsets shifts and sharpens the redshift distribution, effectively probing deeper ranges in $z$.}
   \label{fig:z_dist}
 \end{figure}
 
@@ -138,8 +138,8 @@ The first term in the equation represents the contribution from galaxies that ar
 %\subsubsection{In-Catalog Contribution}
 The integral in the in-catalog term can be expressed as the sum over the possible host galaxies in the catalog, weighted by their respective probabilities of being the host galaxy. These galaxies are weighted by their luminosity, which is a function of the absolute magnitude and redshift. The rationale being that the more luminous, and thus heavier galaxies are more likely to host \ac{CBC} events, and therefore contribute more to the \ac{LOS} redshift prior. This reduces the in-catalog part to a wieghted sum over the galaxies in the catalog, where the galaxies are treated as point sources modeled by a Gaussian. This term can thus be expressed as:
 \begin{align}
-  \iint p(z, M, m|G,\Omega_i, \Lambda, s, I)~dM dm =& \frac{1}{p(s|G,\Omega_i, \Lambda, I)N_{gal}(\Omega_i)} \nonumber\\ 
-  &\times \sum_{k}^{N_{gal}(\Omega_i)} p(z|\hat{z}_k) p(s|z, M(z, \hat{m}_k, \Lambda), \Lambda, I)
+  \iint p(z, M, m|G,\Omega_i, \Lambda, s, I)~dM dm =& \frac{1}{p(s|G,\Omega_i, \Lambda, I)N_{\mathrm{gal}}(\Omega_i)} \nonumber\\ 
+  &\times \sum_{k}^{N_{\mathrm{gal}}(\Omega_i)} p(z|\hat{z}_k) p(s|z, M(z, \hat{m}_k, \Lambda), \Lambda, I)
 \end{align}
 where the term $p(z|\hat{z}_k)$ represents the probability of a galaxy being at redshift $z$, given its observed redshift $\hat{z}_k$. This term is used to weight the contribution from each galaxy in the catalog, based on its observed redshift.
 
@@ -148,14 +148,14 @@ The integral in the out-of-catalog term marginalizes over the possible host gala
 \begin{align}
   \iint & p(z, M, m|\bar{G},\Omega_i, \Lambda, s, I)~dM dm \nonumber \\
   &= \frac{1}{p(s|\bar{G},\Omega_i, \Lambda, I)p(\bar{G}|\Omega_i, \Lambda, I)} \nonumber \\ 
-  &~~~\times \Bigg[\Theta[z_{cut} -z] \int_{M(z,m_{th}(\Omega_i), \Lambda)}^{M_{max}(H_0)} p(z,M|\Lambda, I) p(s|z,M,\Lambda,I)~dM \nonumber \\
-  &\qquad \quad + \Theta[z-z_{cut}] \int_{M_{min}(H_0)}^{M_{max}(H_0)} p(z,M|\Lambda, I) p(s|z,M,\Lambda,I)~dM \Bigg]
+  &~~~\times \Bigg[\Theta[z_{\mathrm{cut}} -z] \int_{M(z,m_{\mathrm{thr}}(\Omega_i), \Lambda)}^{M_{\mathrm{max}}(H_0)} p(z,M|\Lambda, I) p(s|z,M,\Lambda,I)~dM \nonumber \\
+  &\qquad \quad + \Theta[z-z_{\mathrm{cut}}] \int_{M_{\mathrm{min}}(H_0)}^{M_{\mathrm{max}}(H_0)} p(z,M|\Lambda, I) p(s|z,M,\Lambda,I)~dM \Bigg]
 \end{align}
-Here we also account for the \ac{EM} selection effects of the catalog. Due to the flux limited nature of the galaxy catalog, the probability of a galaxy being present in the catalog depends on the galaxy's apparanet magnitude, and whether it is greater or smaller than apparent magnitude threshold of the catalog along the same line of sight, $m_{th}(\Omega_i)$. The Heaviside function $\Theta$ is used to separate the two cases of the out-of-catalog contribution, depending on whether the redshift $z$ is below or above a certain threshold $z_{cut}$. This is due to to the exclusion of galaxies with redshift $z$ greater than $z_{cut}$ from the catalog, which is a result of unreliable redshift or color information at these higher redhsifts. 
+Here we also account for the \ac{EM} selection effects of the catalog. Due to the flux limited nature of the galaxy catalog, the probability of a galaxy being present in the catalog depends on the galaxy's apparent magnitude, and whether it is greater or smaller than apparent magnitude threshold of the catalog along the same line of sight, $m_{\mathrm{th}}(\Omega_i)$. The Heaviside function $\Theta$ is used to separate the two cases of the out-of-catalog contribution, depending on whether the redshift $z$ is below or above a certain threshold $z_{\mathrm{cut}}$. This is due to to the exclusion of galaxies with redshift $z$ greater than $z_{\mathrm{cut}}$ from the catalog, which is a result of unreliable redshift or color information at these higher redshifts.
 
-The term $p(s|z,M,\Lambda,I)$ is the weighting factor for the contribution from each galaxy, based on its luminosity and redshift. The galaxies are weighted by their luminosity in the $K$-band, which is a good tracer of the mass of the galaxies \citep{strazzullo2006near,sureshkumar2021galaxy}. Furthermore, the merger host probability is also taken into account, which is a function of the redshift. This is modeled by a Madau-Dickinson merger rate evolution model \citep{madau2014cosmic}, which describes the evolution of the merger rate with redshift, discussed in Section \ref{sec:source_population}. The term $p(s|z,M,\Lambda,I)$, also incorporates the source population models, used to pouplate the out-of-catalog contribution. These models are also discussed in Section \ref{sec:source_population}.
+The term $p(s|z,M,\Lambda,I)$ is the weighting factor for the contribution from each galaxy, based on its luminosity and redshift. The galaxies are weighted by their luminosity in the $K$-band, which is a good tracer of the mass of the galaxies \citep{strazzullo2006near,sureshkumar2021galaxy}. Furthermore, the merger host probability is also taken into account, which is a function of the redshift. This is modeled by a Madau-Dickinson merger rate evolution model \citep{madau2014cosmic}, which describes the evolution of the merger rate with redshift, discussed in Section \ref{sec:source_population}. The term $p(s|z,M,\Lambda,I)$, also incorporates the source population models, used to populate the out-of-catalog contribution. These models are also discussed in Section \ref{sec:source_population}.
 
-The term $p(z,M|\Lambda, I)$ represents the luminosity funtion of the galaxies, taken to be the Schechter luminosity function, discussed in Section \ref{sec:luminosity_function}. The integration limits are set by the minimum and maximum absolute magnitudes of the galaxies, $M_{min}(H_0)$ and $M_{max}(H_0)$. These are $H_0$-dependent, as the parameters of the Schechter luminosity function are also $H_0$-dependent, but the final distribution remains insensitive to the exact values of $H_0$ \citep{gray2023joint}.
+The term $p(z,M|\Lambda, I)$ represents the luminosity funtion of the galaxies, taken to be the Schechter luminosity function, discussed in Section \ref{sec:luminosity_function}. The integration limits are set by the minimum and maximum absolute magnitudes of the galaxies, $M_{\mathrm{min}}(H_0)$ and $M_{\mathrm{max}}(H_0)$. These are $H_0$-dependent, as the parameters of the Schechter luminosity function are also $H_0$-dependent, but the final distribution remains insensitive to the exact values of $H_0$ \citep{gray2023joint}.
 
 \section{Results}
 In this section we present the main outcomes of our analysis: how applying brightness cuts to the \texttt{GLADE+} catalog alters \ac{LOS} redshift prior for individual events, how these modified priors propagate into the inferred posterior on the Hubble constant $H_0$. It should be noted that while \texttt{gwcosmo} is designed to perform joint population and cosmological inference, we focus here on the impact of the brightness cuts on the \ac{LOS} redshift prior and the resulting $H_0$ posterior. For this reason, we do not perform a full joint inference, but rather use \texttt{gwcosmo} for $H_0$ inference, while keeping the population hyperparameters fixed to the values mentioned in Section~\ref{sec:source_population}.
@@ -168,14 +168,14 @@ Figure~\ref{fig:los_prior_gw170809} shows the LOS redshift prior for the event \
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.67\textwidth]{figures/GW170809_zprior.png}
-  \caption[LOS redshift prior for GW170809 for different brightness-ranked \texttt{GLADE} subsets]{LOS redshift prior for GW170809 for different brightness-ranked \texttt{GLADE} subsets. The full \texttt{GLADE+} catalog (solid blue) is compared to the different subsets. Applying a brightness cut amplifies the prior at higher distances, extending the effective reach of the catalog and partially mitigating incompleteness at greater redshifts.}
+  \caption[LOS redshift prior for GW170809 for different brightness-ranked \texttt{GLADE+} subsets]{LOS redshift prior for GW170809 for different brightness-ranked \texttt{GLADE+} subsets. The full \texttt{GLADE+} catalog (solid blue) is compared to the different subsets. Applying a brightness cut amplifies the prior at higher distances, extending the effective reach of the catalog and partially mitigating incompleteness at greater redshifts.}
   \label{fig:los_prior_gw170809}
 \end{figure}
 
 \begin{figure}[h!]
   \centering
   \includegraphics[width=0.67\textwidth]{figures/GW170809_H0.png}
-  \caption[$H_0$ posterior distributions for GW170809 using full and brightness-cut galaxy catalogs.]{$H_0$ posterior distributions for GW170809 using full and brightness-cut galaxy catalogs. \texttt{GLADEP20} yields the tightest credible interval. \texttt{GLADEP10} suffers from sparse sampling.}
+  \caption[$H_0$ posterior distributions for GW170809 using different brightness-ranked \texttt{GLADE+} subsets.]{$H_0$ posterior distributions for GW170809 using different brightness-ranked \texttt{GLADE+} subsets. \texttt{GLADEP20} yields the tightest credible interval. \texttt{GLADEP10} suffers from sparse sampling.}
   \label{fig:h0_gw170809}
 \end{figure}
 
@@ -196,7 +196,7 @@ Figure~\ref{fig:los_prior_gw170809} shows the LOS redshift prior for the event \
     \caption[$H_0$ MAP values with $68\%$ confidence ranges, alongside the maximum magnitude limits for \texttt{GLADE+} and the different subsets.]{Maximum {\em a posteriori} probabilities with $68\%$ confidence ranges of the $H_0$ posterior distributions alongside the maximum magnitude limits for the different percentiles of the \texttt{GLADE+} galaxy catalogue.}
     \begin{tabular}{c c c }
     \hline
-        \textbf{Catalogue} & $M_{K, max}$ & $H_0~[km~s^{-1}Mpc^{-1}]$ \\ \hline
+        \textbf{Catalogue} & $M_{K,\mathrm{max}}$ & $H_0~[\mathrm{km}~\mathrm{s}^{-1}\mathrm{Mpc}^{-1}]$ \\ \hline
         \\[-0.8em]
         \texttt{GLADE+} & $-19.00$ & $67.87^{+8.97}_{-10.29}$ \\ 
         \\[-0.8em]
@@ -235,7 +235,7 @@ Thus the \ac{LOS} redshift prior, $p(z|\Omega_i, \Lambda, s, I)$, and the lumino
 
 Figure~\ref{fig:h0_gw170809} shows the resulting $H_0$ posteriors for GW170809 under various catalog cuts. As the catalog is restricted to brighter galaxies, the $H_0$ posterior becomes increasingly narrow. For example, \texttt{GLADEP20} yields a visibly tighter posterior compared to the full \texttt{GLADE+}, with a shift in the median. However, the most aggressive cut (\texttt{GLADEP10}) introduces broader tails, likely due to insufficient galaxy sampling in the localization volume.
 
-We repeat this procedure for a subset of \ac{BBH} events from \ac{GWTC}-3 that meet our selection criteria. Figure~\ref{fig:h0_cumulative} shows the combined $H_0$ posterior from the selected dark siren events using the full \texttt{GLADE+} catalog and the different subsets. Table~\ref{tab:h0_stats} summarizes the $H_0$ posteriors for all cuts. The uncertainty is minimized around the \texttt{GLADEP20} subset, showing 30-40\% tighter contraints, while median values shift towards a higher value. While these tighter constraints are promising, the shift in median values could indicate a systematic bias introduced by the brightness cuts. This is particularly evident for the most extreme cut (\texttt{GLADEP10}), which yield a significantly lower median $H_0$ value, likely due to under-sampling and loss of information about the large-scale structure. For less extreme cuts, the median values doesn't show a huge shift. This suggests that moderate brightness cuts could improve precision without introducing much systematic bias.
+We repeat this procedure for a subset of \ac{CBC} events from \ac{GWTC}-3 that meet our selection criteria. Figure~\ref{fig:h0_cumulative} shows the combined $H_0$ posterior from the selected dark siren events using the full \texttt{GLADE+} catalog and the different subsets. Table~\ref{tab:h0_stats} summarizes the $H_0$ posteriors for all cuts. The uncertainty is minimized around the \texttt{GLADEP20} subset, showing 30-40\% tighter contraints, while median values shift towards a higher value. While these tighter constraints are promising, the shift in median values could indicate a systematic bias introduced by the brightness cuts. This is particularly evident for the most extreme cut (\texttt{GLADEP10}), which yield a significantly lower median $H_0$ value, likely due to under-sampling and loss of information about the large-scale structure. For less extreme cuts, the median values doesn't show a huge shift. This suggests that moderate brightness cuts could improve precision without introducing much systematic bias.
 
 \subsection{Luminosity Retention}
 An important consideration when applying brightness-based cuts to galaxy catalogs is understanding how much of the total luminosity is retained as a function of the chosen percentile cut. Figure~\ref{fig:luminosity_fraction} shows the cumulative fraction of total $K$-band luminosity retained when selecting the brightest $X\%$ of galaxies in the \texttt{GLADE+} catalog.

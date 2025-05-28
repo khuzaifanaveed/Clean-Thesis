@@ -1,0 +1,57 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{List of Figures}{xv}{section*.12}%
+\contentsline {chapter}{List of Tables}{xvii}{section*.13}%
+\contentsline {chapter}{List of Abbreviations}{xix}{section*.14}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The Hubble Constant}{1}{section*.18}%
+\contentsline {subsection}{\numberline {1.1.1}Early $H_0$ Measurements}{1}{section*.19}%
+\contentsline {section}{\numberline {1.2}Modern Cosmology and the Hubble Tension}{2}{section*.21}%
+\contentsline {subsection}{\numberline {1.2.1}Local measurements: Cosmic Distance Ladder}{2}{section*.22}%
+\contentsline {subsection}{\numberline {1.2.2}Indirect measurements: Cosmic Microwave Background}{3}{section*.27}%
+\contentsline {subsection}{\numberline {1.2.3}Hubble Tension and the quest for independent measurements}{4}{section*.28}%
+\contentsline {section}{\numberline {1.3}\Acf {GW} Cosmology}{5}{section*.32}%
+\contentsline {section}{\numberline {1.4}Thesis Objectives}{6}{section*.36}%
+\contentsline {chapter}{\numberline {2}Gravitational-Wave Cosmology}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Standard Siren Cosmology}{9}{section*.39}%
+\contentsline {section}{\numberline {2.2}Bright vs. Dark Sirens}{11}{section*.45}%
+\contentsline {section}{\numberline {2.3}State of the Art Dark Siren Methods}{12}{section*.46}%
+\contentsline {subsection}{\numberline {2.3.1}Redshift Inference Methods}{13}{section*.47}%
+\contentsline {subsection}{\numberline {2.3.2}Galaxy Weighting Choices}{13}{section*.48}%
+\contentsline {section}{\numberline {2.4}Refining the Redshift Prior: Brightest Galaxies as Tracers}{15}{section*.50}%
+\contentsline {chapter}{\numberline {3}The \texttt {gwcosmo} Pipeline}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Bayesian Framework}{17}{section*.54}%
+\contentsline {section}{\numberline {3.2}Key Features of \texttt {gwcosmo}}{20}{section*.56}%
+\contentsline {section}{\numberline {3.3}Implementation and Applications}{20}{section*.57}%
+\contentsline {chapter}{\numberline {4}Data}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}\ac {GW} Event Data}{23}{section*.60}%
+\contentsline {subsection}{\numberline {4.1.1}The GWTC-3 Catalog}{23}{section*.61}%
+\contentsline {subsection}{\numberline {4.1.2}Event Selection Criteria}{23}{section*.62}%
+\contentsline {subsection}{\numberline {4.1.3}Distance Posteriors and Sky Localization}{24}{section*.63}%
+\contentsline {subsection}{\numberline {4.1.4}Assumptions About the Source Population}{24}{section*.64}%
+\contentsline {section}{\numberline {4.2}\ac {EM} Galaxy Catalogs}{25}{section*.67}%
+\contentsline {subsection}{\numberline {4.2.1}The \texttt {GLADE+} Galaxy Catalog}{25}{section*.68}%
+\contentsline {subsection}{\numberline {4.2.2}Catalog Completeness}{25}{section*.70}%
+\contentsline {subsection}{\numberline {4.2.3}Redshift Uncertainty Modeling}{26}{section*.71}%
+\contentsline {subsection}{\numberline {4.2.4}$K$-band Luminosity as Host Probability Proxy}{26}{section*.72}%
+\contentsline {chapter}{\numberline {5}GLADE+ Bright Galaxies as Redshift Tracers}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Bright Galaxy Subsets}{27}{section*.75}%
+\contentsline {subsection}{\numberline {5.1.1}Trade-Offs and Limitations}{28}{section*.77}%
+\contentsline {section}{\numberline {5.2}\Ac {LOS} Redshift Prior}{31}{section*.81}%
+\contentsline {subsection}{\numberline {5.2.1}\ac {LOS} Redshift Prior Construction}{31}{section*.82}%
+\contentsline {section}{\numberline {5.3}Results}{33}{section*.83}%
+\contentsline {subsection}{\numberline {5.3.1}\ac {LOS} Redshift Prior}{33}{section*.84}%
+\contentsline {subsection}{\numberline {5.3.2}Hubble Constant Posterior}{35}{section*.87}%
+\contentsline {subsection}{\numberline {5.3.3}Luminosity Retention}{36}{section*.90}%
+\contentsline {subsection}{\numberline {5.3.4}Cost-Benefit Trade-Off}{37}{section*.92}%
+\contentsline {chapter}{\numberline {6}Mock Data Challenge}{39}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The \texttt {BUZZARD} Mock Catalog}{39}{section*.94}%
+\contentsline {section}{\numberline {6.2}\texttt {GWSim}}{41}{section*.98}%
+\contentsline {section}{\numberline {6.3}$H_0$ Inference with \texttt {gwcosmo}}{43}{section*.99}%
+\contentsline {section}{\numberline {6.4}Results}{43}{section*.100}%
+\contentsline {subsection}{\numberline {6.4.1}Luminosity Retention in the BUZZARD Catalog}{44}{section*.101}%
+\contentsline {subsection}{\numberline {6.4.2}Tracing Large-Scale Structure with Luminous Galaxies}{44}{section*.103}%
+\contentsline {chapter}{\numberline {7}Conclusion}{49}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Summary of Findings}{49}{section*.107}%
+\contentsline {section}{\numberline {7.2}Limitations}{50}{section*.108}%
+\contentsline {section}{\numberline {7.3}Outlook and Future Work}{50}{section*.109}%
+\contentsline {chapter}{\nonumberline Bibliography}{51}{chapter*.110}%

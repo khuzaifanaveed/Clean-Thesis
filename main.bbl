@@ -440,6 +440,91 @@
     \field{year}{2023}
   \endentry
 
+  \entry{adame2025desi}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=AA}{%
+         family={Adame},
+         familyi={A\bibinitperiod},
+         given={AG},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Aguilar},
+         familyi={A\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=AS}{%
+         family={Ahlen},
+         familyi={A\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=AS}{%
+         family={Alam},
+         familyi={A\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=AD}{%
+         family={Alexander},
+         familyi={A\bibinitperiod},
+         given={DM},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Alvarez},
+         familyi={A\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=AO}{%
+         family={Alves},
+         familyi={A\bibinitperiod},
+         given={O},
+         giveni={O},
+      }}%
+      {{hash=AA}{%
+         family={Anand},
+         familyi={A\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=AU}{%
+         family={Andrade},
+         familyi={A\bibinitperiod},
+         given={U},
+         giveni={U},
+      }}%
+      {{hash=AE}{%
+         family={Armengaud},
+         familyi={A\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{AA+2}
+    \strng{fullhash}{AAAJASASADAMAOAAAUAE+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{02}
+    \field{pages}{021}
+    \field{title}{DESI 2024 VI: Cosmological constraints from the measurements
+  of baryon acoustic oscillations}
+    \field{volume}{2025}
+    \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+    \field{year}{2025}
+  \endentry
+
   \entry{afroz2024prospect}{article}{}{}
     \name{author}{2}{}{%
       {{hash=AS}{%
@@ -1032,16 +1117,17 @@
     \strng{fullhash}{C1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2025}
+    \field{labelyear}{2024}
     \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
-    \field{title}{{The Hubble tension; CERN Courier}}
+    \field{title}{{First DESI results shine a light on Hubble tension}}
     \verb{url}
-    \verb https://cerncourier.com/the-hubble-tension/
+    \verb https://cerncourier.com/a/first-desi-results-shine-a-light-on-hubble-
+    \verb tension/
     \endverb
-    \field{month}{03}
-    \field{year}{2025}
+    \field{month}{05}
+    \field{year}{2024}
   \endentry
 
   \entry{chen2024testing}{article}{}{}
@@ -1859,6 +1945,53 @@
     \field{year}{2023}
   \endentry
 
+  \entry{hanselman2025gravitational}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=HAG}{%
+         family={Hanselman},
+         familyi={H\bibinitperiod},
+         given={Alexandra\bibnamedelima G},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Vijaykumar},
+         familyi={V\bibinitperiod},
+         given={Aditya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fishbach},
+         familyi={F\bibinitperiod},
+         given={Maya},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HDE}{%
+         family={Holz},
+         familyi={H\bibinitperiod},
+         given={Daniel\bibnamedelima E},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{HAG+1}
+    \strng{fullhash}{HAGVAFMHDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{1}
+    \field{pages}{9}
+    \field{title}{Gravitational-wave dark siren cosmology systematics from
+  galaxy weighting}
+    \field{volume}{979}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{year}{2025}
+  \endentry
+
   \entry{hubble1936realm}{book}{}{}
     \name{author}{1}{}{%
       {{hash=HEP}{%
@@ -2623,6 +2756,41 @@
     \field{year}{2025}
   \endentry
 
+  \entry{perna2024investigating}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=PG}{%
+         family={Perna},
+         familyi={P\bibinitperiod},
+         given={Gabriele},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mastrogiovanni},
+         familyi={M\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ricciardone},
+         familyi={R\bibinitperiod},
+         given={Angelo},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PG+1}
+    \strng{fullhash}{PGMSRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Investigating the impact of galaxies' compact binary hosting
+  probability for gravitational-wave cosmology}
+    \field{journaltitle}{arXiv preprint arXiv:2405.07904}
+    \field{year}{2024}
+  \endentry
+
   \entry{riess2024jwst}{article}{}{}
     \name{author}{10}{}{%
       {{hash=RAG}{%
@@ -2904,6 +3072,31 @@
     \field{journaltitle}{Astrophysical Journal, Part 1, vol. 256, May 15, 1982,
   p. 339-345. Research supported by the Swiss National Science Foundation;}
     \field{year}{1982}
+  \endentry
+
+  \entry{schechter1976analytic}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=SP}{%
+         family={Schechter},
+         familyi={S\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SP1}
+    \strng{fullhash}{SP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1976}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{297\bibrangedash 306}
+    \field{title}{An analytic expression for the luminosity function for
+  galaxies.}
+    \field{volume}{203}
+    \field{journaltitle}{Astrophysical Journal, Vol. 203, p. 297-306}
+    \field{year}{1976}
   \endentry
 
   \entry{schmidt1968space}{article}{}{}
