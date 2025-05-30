@@ -47,7 +47,7 @@
 \contentsline {section}{\numberline {6.1}The \texttt {BUZZARD} Mock Catalog}{39}{section*.92}%
 \contentsline {section}{\numberline {6.2}\texttt {GWSim}}{41}{section*.96}%
 \contentsline {section}{\numberline {6.3}$H_0$ Inference with \texttt {gwcosmo}}{43}{section*.97}%
-\contentsline {section}{\numberline {6.4}Results}{43}{section*.98}%
+\contentsline {section}{\numberline {6.4}Results}{44}{section*.98}%
 \contentsline {subsection}{\numberline {6.4.1}Luminosity Retention in the BUZZARD Catalog}{44}{section*.99}%
 \contentsline {subsection}{\numberline {6.4.2}Tracing Large-Scale Structure with Luminous Galaxies}{44}{section*.101}%
 \contentsline {chapter}{\numberline {7}Conclusion}{49}{chapter.7}%

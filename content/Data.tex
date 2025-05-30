@@ -31,7 +31,7 @@ These distance posteriors are crucial for constructing the \ac{LOS} redshift pri
 \subsection{Assumptions About the Source Population}
 \label{sec:source_population}
 
-Although this thesis primarily focuses on statistical redshift modeling, it is important to acknowledge that the cosmological inference also depends weakly on assumptions about the source population. For instance, \texttt{gwcosmo} allows one to specify priors on:
+Although this thesis primarily focuses on statistical redshift modeling, it is important to acknowledge that the cosmological inference also depends on assumptions about the source population. For instance, \texttt{gwcosmo} allows one to specify priors on:
 \begin{itemize}
   \item Merger rate evolution with redshift, typically modeled as \( R(z) \propto (1+z)^\kappa \)
   \vspace{-1em}
@@ -44,7 +44,7 @@ For our analysis we assume that \acp{CBC} follow a Madau-Dickinson merger redshi
 \end{align}
 Here $R_0$ is the local merger rate, $\kappa$ the high-z slope, $\gamma$ the low-z slop and $z_p$ the break-point. All the assumed priors, taken from \citet{abbott2023gwtc}, are given in Table \ref{tab:Madau}.
 
-For \ac{BBH} we use power-law with a Gaussian peak mass model, with powerlaw slope $\alpha$, the mean of the Gaussian $\sigma_g$, the width of the peak $\mu_g$, and the relative weight between power-law and the peak $\lambda_g$. We also assume the minimum and maximum masses for the black hole distribution. For neutron stars we assume that mass is uniformly distributed between $M_{min,\mathrm{NS}}$ and $M_{max,\mathrm{NS}}$. All the assumed priors, taken from \citet{abbott2023gwtc}, are given in Table \ref{tab:mass_dist}.
+To model the source population, for \ac{BBH}, we use power-law with a Gaussian peak mass model, with powerlaw slope $\alpha$, the mean of the Gaussian $\sigma_g$, the width of the peak $\mu_g$, and the relative weight between power-law and the peak $\lambda_g$. We also assume the minimum and maximum masses for the black hole distribution. For neutron stars we assume that mass is uniformly distributed between $M_{\mathrm{min, NS}}$ and $M_{\mathrm{max, NS}}$. All the assumed priors, taken from \citet{abbott2023gwtc}, are given in Table \ref{tab:mass_dist}.
 
 \begin{table}[h!]
     \small
